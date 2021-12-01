@@ -1,0 +1,176 @@
+# User interface text and labels
+
+# None (default)
+none:
+  separator: "/"
+
+# German / Deutsch
+de: &DE
+  breadcrumb_home_label: "Start"
+  breadcrumb_separator: "/"
+  categories_label: "Kategorien:"
+  comment_btn_submit: "Kommentar absenden"
+  comment_btn_submitted: "Versendet"
+  comment_error_msg: "Entschuldigung, es gab einen Fehler. Bitte füllen Sie alle benötigten Felder aus und versuchen Sie es erneut."
+  comment_form_comment_label: "Kommentar"
+  comment_form_email_label: "E-Mail-Addresse"
+  comment_form_info: "Ihre E-Mail Adresse wird nicht veröffentlicht. Benötigte Felder sind markiert"
+  comment_form_md_info: "Markdown wird unterstützt."
+  comment_form_name_label: "Name"
+  comment_form_website_label: "Webseite (optional)"
+  comment_success_msg: "Danke für Ihren Kommentar! Er wird auf der Seite angezeigt, nachdem er geprüft wurde."
+  comments_label: "Hinterlassen Sie einen Kommentar"
+  comments_title: "Kommentare"
+  date_label: "Aktualisiert:"
+  email_label: "E-Mail"
+  ext_link_label: "Direkter Link"
+  feed_label: "Feed"
+  follow_label: "Folgen:"
+  less_than: "weniger als"
+  loading_label: "Lade..."
+  menu_label: "Menü ein-/ausschalten"
+  meta_label:
+  minute_read: "Minuten zum Lesen"
+  more_label: "Mehr anzeigen"
+  page: "Seite"
+  pagination_next: "Nächste"
+  pagination_previous: "Vorherige"
+  powered_by: "Möglich durch"
+  recent_posts: "Aktuelle Beiträge"
+  related_label: "Ihnen gefällt vielleicht auch"
+  results_found: "Ergebnis(se) gefunden"
+  search_algolia_no_results:
+  search_label:
+  search_label_text:
+  search_placeholder_text: "Suchbegriff eingeben..."
+  share_on_label: "Teilen auf"
+  skip_content:
+  skip_footer:
+  skip_links:
+  skip_primary_nav:
+  tags_label: "Tags:"
+  toc_label: "Auf dieser Seite"
+  undefined_wpm: "Undefinierter Parameter words_per_minute in _config.yml"
+  website_label: "Webseite"
+de-DE:
+  <<: *DE
+de-AT:
+  <<: *DE
+de-CH:
+  <<: *DE
+de-BE:
+  <<: *DE
+de-LI:
+  <<: *DE
+de-LU:
+  <<: *DE
+
+# English
+en: &EN
+  back_to_top: "Back to top"
+  breadcrumb_home_label: "Home"
+  breadcrumb_separator: "/"
+  categories_label: "Categories:"
+  comment_btn_submit: "Submit comment"
+  comment_btn_submitted: "Submitted"
+  comment_error_msg: "Sorry, there was an error with your submission. Please make sure all required fields have been completed and try again."
+  comment_form_comment_label: "Comment"
+  comment_form_email_label: "Email address"
+  comment_form_info: "Your email address will not be published. Required fields are marked"
+  comment_form_md_info: "Markdown is supported."
+  comment_form_name_label: "Name"
+  comment_form_website_label: "Website (optional)"
+  comment_success_msg: "Thanks for your comment! It will show on the site once it has been approved."
+  comments_label: "Leave a comment"
+  comments_title: "Comments"
+  date_label: "Updated:"
+  email_label: "Email"
+  ext_link_label: "Direct link"
+  feed_label: "Feed"
+  follow_label: "Follow:"
+  less_than: "less than"
+  loading_label: "Loading..."
+  menu_label: "Toggle menu"
+  meta_label:
+  minute_read: "minute read"
+  more_label: "Learn more"
+  page: "Page"
+  pagination_next: "Next"
+  pagination_previous: "Previous"
+  powered_by: "Powered by"
+  recent_posts: "Recent posts"
+  related_label: "You may also enjoy"
+  results_found: "Result(s) found"
+  search_algolia_no_results: "No results"
+  search_label: "Toggle search"
+  search_label_text: "Enter your search term..."
+  search_placeholder_text: "Enter your search term..."
+  share_on_label: "Share on"
+  skip_content: "Skip to content"
+  skip_footer: "Skip to footer"
+  skip_links: "Skip links"
+  skip_primary_nav: "Skip to primary navigation"
+  tags_label: "Tags:"
+  toc_label: "On this page"
+  undefined_wpm: "Undefined parameter words_per_minute at _config.yml"
+  website_label: "Website"
+en-US:
+  <<: *EN
+en-CA:
+  <<: *EN
+en-GB:
+  <<: *EN
+en-AU:
+  <<: *EN
+
+# Russian / Русский
+ru: &RU
+  back_to_top: "Наверх"
+  breadcrumb_home_label: "Главная"
+  breadcrumb_separator: "/"
+  categories_label: "Разделы:"
+  comment_btn_submit: "Оставить комментарий"
+  comment_btn_submitted: "Отправлено"
+  comment_error_msg: "К сожалению, произошла ошибка с отправкой комментария. Пожалуйста, убедитесь, что все обязательные поля заполнены и попытайтесь снова."
+  comment_form_comment_label: "Комментарий"
+  comment_form_email_label: "Электронная почта"
+  comment_form_info: "Ваш адрес электронной почты не будет опубликован. Обязательные поля помечены"
+  comment_form_md_info: "Поддерживается синтаксис Markdown."
+  comment_form_name_label: "Имя"
+  comment_form_website_label: "Ссылка на сайт (необязательно)"
+  comment_success_msg: "Спасибо за Ваш комментарий! Он будет опубликован на сайте после проверки."
+  comments_label: "Оставить комментарий"
+  comments_title: "Комментарии"
+  date_label: "Дата изменения:"
+  email_label: "Электронная почта"
+  ext_link_label: "Прямая ссылка"
+  feed_label: "RSS лента"
+  follow_label: "Связаться со мной:"
+  less_than: "менее"
+  loading_label: "Отправка..."
+  menu_label: "Выпадающее меню"
+  meta_label:
+  minute_read: "мин на чтение"
+  more_label: "Читать далее"
+  page: "Страница"
+  pagination_next: "Следующая"
+  pagination_previous: "Предыдущая"
+  powered_by: "Сайт работает на"
+  recent_posts: "Свежие записи"
+  related_label: "Вам также может понравиться"
+  results_found: "Найдено"
+  search_algolia_no_results:
+  search_label:
+  search_label_text:
+  search_placeholder_text: "Введите поисковый запрос..."
+  share_on_label: "Поделиться"
+  skip_content:
+  skip_footer:
+  skip_links:
+  skip_primary_nav:
+  tags_label: "Метки:"
+  toc_label: "Содержание"
+  undefined_wpm: "Не определён параметр words_per_minute в _config.yml"
+  website_label: "Сайт"
+ru-RU:
+  <<: *RU

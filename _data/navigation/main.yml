@@ -1,0 +1,17 @@
+# Main navigation
+en: &EN
+  - title: "About"
+    url: /about
+  - title: "Routes"
+    url: /year-archive
+en-US: *EN
+en-CA: *EN
+en-GB: *EN
+en-AU: *EN
+
+ru: &RU
+  - title: "О нас"
+    url: /about
+  - title: "Маршруты"
+    url: /year-archive
+ru-RU: *RU

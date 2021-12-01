@@ -1,0 +1,31 @@
+{% include footer/back-to-top.html %}
+
+<div class="page__footer-follow">
+    <ul class="social-icons">
+        {% if site.footer.links %}
+            {% for link in site.footer.links %}
+                {% if link.label and link.url %}
+                    <li>
+                        <a href="{{ link.url }}" rel="nofollow noopener noreferrer" title="{{ link.label }}">
+                            <i class="{{ link.icon | append: ' fa-4x' | default: 'fas fa-4x fa-fw fa-link' }}" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                {% endif %}
+            {% endfor %}
+        {% endif %}
+
+        {% unless site.atom_feed.hide %}
+            <li>
+                <a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}" title="{{ site.data.ui-text[site.locale].feed_label | default: 'Feed' }}">
+                    <i aria-hidden="true" class="fas fa-4x fa-fw fa-rss-square"></i>
+                </a>
+            </li>
+        {% endunless %}
+    </ul>
+</div>
+
+<div class="page__footer-copyright">
+    &copy;
+    {{ site.time | date: '%Y' }}
+    {{ site.title }}.
+</div>

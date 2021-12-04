@@ -1,9 +1,7 @@
 ---
-title: Toponyms
+classes: wide
+collection: toponyms
 layout: collection
 permalink: /toponyms
-collection: toponyms
-classes: wide
+title: Топонимы
 ---
-
-Sample document listing for the collection `_toponyms`.

@@ -190,6 +190,10 @@ defaults:
   - scope:
       path: ""
       type: toponyms
+    values:
+      layout: single
+      share: true
+      related: true
   # _posts
   - scope:
       path: ""

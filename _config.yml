@@ -186,6 +186,10 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _toponyms
+  - scope:
+      path: ""
+      type: toponyms
   # _posts
   - scope:
       path: ""
@@ -204,6 +208,13 @@ defaults:
 sass:
   sass_dir: _sass
   style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+
+# Collections
+collections:
+  toponyms:
+    output: true
+    permalink: /:collection/:path/
 
 
 # Outputting

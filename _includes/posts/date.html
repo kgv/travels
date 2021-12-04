@@ -1,0 +1,7 @@
+{% if post.show_date and post.date %}
+<span class="page__meta-date">
+    <i aria-hidden="true" class="far {% if include.type == 'grid' %} fa-fw {% endif %}fa-calendar-alt"></i>
+    {% assign date_format = site.date_format | default: "%d-%m-%Y" %}
+    <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: date_format }}</time>
+</span>
+{% endif %}

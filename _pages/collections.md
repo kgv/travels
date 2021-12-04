@@ -1,25 +1,9 @@
 ---
-author_profile: false
+author_profile: true
 layout: archive
-permalink: /sitemap
-title: "Sitemap"
+permalink: /collections
+title: "Collections"
 ---
-
-A list of all the posts and pages found on the site. For you robots out there is
-an [XML version]({{ "sitemap.xml" | relative_url }}) available for digesting as
-well.
-
-## Pages
-
-{% for post in site.pages %}
-    {% include archive-single.html %}
-{% endfor %}
-
-## Posts
-
-{% for post in site.posts %}
-    {% include archive-single.html %}
-{% endfor %}
 
 {% capture written_label %}'None'
 {% endcapture %}
@@ -30,7 +14,7 @@ well.
             {{ collection.label }}
         {% endcapture %}
         {% if label != written_label %}
-            ## {{ label }}
+            <h2 id="{{ label | slugify }}" class="archive__subtitle">{{ label }}</h2>
             {% capture written_label %}
                 {{ label }}
             {% endcapture %}

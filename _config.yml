@@ -113,13 +113,13 @@ author:
 footer:
   links:
     - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
+      icon: "fa-twitter"
       url: "https://twitter.com/"
     - label: "GitHub"
-      icon: "fab fa-fw fa-github"
+      icon: "fa-github"
       url: "https://github.com/"
     - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
+      icon: "fa-instagram"
       url: "https://instagram.com/"
 
 
@@ -153,7 +153,6 @@ exclude:
   - tmp
 keep_files:
   - .git
-  - .svn
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
@@ -178,24 +177,15 @@ kramdown:
   enable_coderay: false
 
 
-# Collections
-collections:
-  docs:
-    output: true
-    permalink: /:collection/:path/
-  recipes:
-    output: true
-    permalink: /:collection/:path/
-  pets:
-    output: true
-    permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
-
-
 # Defaults
 defaults:
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
   # _posts
   - scope:
       path: ""
@@ -207,51 +197,7 @@ defaults:
       comments: true
       share: true
       related: true
-  # _pages
-  - scope:
-      path: "_pages"
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-  # _docs
-  - scope:
-      path: ""
-      type: docs
-    values:
-      layout: single
-      read_time: false
-      author_profile: false
-      share: false
-      comments: false
-      sidebar:
-        nav: "docs"
-  # _recipes
-  - scope:
-      path: ""
-      type: recipes
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
-  # _pets
-  - scope:
-      path: ""
-      type: pets
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
-  # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: false
-      share: true
+      show_date: true
 
 
 # Sass/SCSS
@@ -261,10 +207,11 @@ sass:
 
 
 # Outputting
-permalink: /:categories/:title/
+permalink: /:categories/:year/:month/:day/
+# permalink: /:categories/:year/:month/:day/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/New_York # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europe/Moscow # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
@@ -298,10 +245,10 @@ whitelist:
 #  - <base_path>/my-awesome-category/index.html ~> path: /
 category_archive:
   type: liquid
-  path: /categories/
+  path: /categories
 tag_archive:
   type: liquid
-  path: /tags/
+  path: /tags
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
 #   enabled:

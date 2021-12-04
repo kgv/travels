@@ -1,0 +1,125 @@
+# User interface text and labels
+
+# None
+none: &NONE
+  separator: /
+
+# German / Deutsch
+
+# English
+en: &EN
+  <<: *NONE
+  back_to_top: back to top
+  categories: categories
+  comment: comment
+  comments: comments
+  contacts: contacts
+  date: date
+  direct_link: direct link
+  email: email
+  email_address: email address
+  enter_your_search_term: enter your search term
+  feed: feed
+  home: home
+  it_will_show_on_the_site_once_it_has_been_approved: it will show on the site once it has been approved
+  leave_a_comment: leave a comment
+  less_than: less than
+  loading: loading
+  markdown_is_supported: markdown is supported
+  meta: meta
+  name: name
+  next: next
+  no_results: no results
+  on_this_page: on this page
+  optional: optional
+  page: page
+  page_not_found: page not found
+  please_make_sure_all_required_fields_have_been_completed_and_try_again: please make sure all required fields have been completed and try again
+  powered_by: powered by
+  previous: previous
+  read_more: read more
+  recent_posts: recent posts
+  related: related
+  required_fields_are_marked: required fields are marked
+  results_found: result(s) found
+  route: route
+  routes: routes
+  search: search
+  share_on: share on
+  skip_links: skip links
+  skip_to_content: skip to content
+  skip_to_footer: skip to footer
+  skip_to_primary_navigation: skip to primary navigation
+  sorry_but_the_page_you_were_trying_to_view_does_not_exist: sorry, but the page you were trying to view does not exist
+  sorry_there_was_an_error_with_your_submission: sorry, there was an error with your submission
+  submit_comment: submit comment
+  submitted: submitted
+  tags: tags
+  thanks_for_your_comment: thanks for your comment
+  toggle_menu: toggle menu
+  website: website
+  your_email_address_will_not_be_published: your email address will not be published
+en-US:
+  <<: *EN
+en-CA:
+  <<: *EN
+en-GB:
+  <<: *EN
+en-AU:
+  <<: *EN
+
+# Russian / Русский
+ru: &RU
+  <<: *NONE
+  back_to_top: наверх
+  categories: категории
+  comment: комментарий
+  comments: комментарии
+  contacts: контакты
+  date: дата
+  direct_link: прямая ссылка
+  email: электронная почта
+  email_address: адрес электронной почты
+  enter_your_search_term: введите поисковый запрос
+  feed: RSS лента
+  home: главная
+  it_will_show_on_the_site_once_it_has_been_approved: он будет опубликован на сайте после проверки
+  leave_a_comment: оставить комментарий
+  less_than: менее
+  loading: отправка
+  markdown_is_supported: поддерживается синтаксис Markdown
+  meta: мета
+  name: имя
+  next: вперед
+  no_results: нет результатов
+  on_this_page: содержание страницы
+  optional: необязательно
+  page: страница
+  page_not_found: страница не найдена
+  please_make_sure_all_required_fields_have_been_completed_and_try_again: пожалуйста, убедитесь, что все обязательные поля заполнены и попробуйте снова
+  powered_by: работает на
+  previous: назад
+  read_more: читать далее
+  recent_posts: недавние посты
+  related: связанные
+  required_fields_are_marked: обязательные поля помечены
+  results_found: результаты поиска
+  route: маршрут
+  routes: маршруты
+  search: поиск
+  share_on: поделиться
+  skip_links: skip links
+  skip_to_content: skip to content
+  skip_to_footer: skip to footer
+  skip_to_primary_navigation: skip to primary navigation
+  sorry_but_the_page_you_were_trying_to_view_does_not_exist: извините, но страница, которую вы пытаетесь просмотреть, не существует
+  sorry_there_was_an_error_with_your_submission: к сожалению произошла ошибка при отправке комментария
+  submit_comment: отправить комментарий
+  submitted: отправлено
+  tags: теги
+  thanks_for_your_comment: спасибо за ваш комментарий
+  toggle_menu: выпадающее меню
+  website: сайт
+  your_email_address_will_not_be_published: ваш адрес электронной почты не будет опубликован
+ru-RU:
+  <<: *RU

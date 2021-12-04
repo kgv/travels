@@ -1,0 +1,8 @@
+{% if page.date %}
+<p class="page__date">
+    <i aria-hidden="true" class="fas fa-fw fa-calendar-alt"></i>
+    <strong>{{ site.data.strings[site.locale].date | capitalize | append: ':' }}</strong>
+    {% assign date_format = site.date_format | default: "%d-%m-%Y" %}
+    <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: date_format }}</time>
+</p>
+{% endif %}

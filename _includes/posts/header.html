@@ -1,0 +1,13 @@
+{% if post.id %}
+    {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+    {% assign title = post.title %}
+{% endif %}
+
+<h2 class="archive__item-title no_toc" itemprop="headline">
+    {% if post.link %}
+    <a href="{{ post.link }}"><i class="fas fa-link" title="link"></i></a>
+    {% endif %}
+    <a href="{{ post.url | relative_url }}">{{ title }}</a>
+</h2>
+

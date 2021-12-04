@@ -1,0 +1,9 @@
+{% if post.link %}
+<a href="{{ post.link }}">{{ title }}</a>
+<a href="{{ post.url | relative_url }}" rel="permalink">
+    <i aria-hidden="true" class="fas fa-link" title="permalink"></i>
+    <span class="sr-only">Permalink</span>
+</a>
+{% else %}
+<a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
+{% endif %}

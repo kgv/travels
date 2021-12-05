@@ -177,8 +177,29 @@ kramdown:
   enable_coderay: false
 
 
+# Collections
+collections:
+  localities:
+    output: true
+    permalink: /:collection/:path/
+  terms:
+    output: true
+    permalink: /:collection/:path/
+  toponyms:
+    output: true
+    permalink: /:collection/:path/
+
+
 # Defaults
 defaults:
+  # _localities
+  - scope:
+      path: ""
+      type: localities
+    values:
+      layout: single
+      share: true
+      related: true
   # _pages
   - scope:
       path: "_pages"
@@ -186,6 +207,14 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _terms
+  - scope:
+      path: ""
+      type: terms
+    values:
+      layout: single
+      share: true
+      related: true
   # _toponyms
   - scope:
       path: ""
@@ -212,13 +241,6 @@ defaults:
 sass:
   sass_dir: _sass
   style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
-
-
-# Collections
-collections:
-  toponyms:
-    output: true
-    permalink: /:collection/:path/
 
 
 # Outputting

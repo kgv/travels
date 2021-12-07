@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Термин
 ---
 
 {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
@@ -29,32 +30,18 @@ layout: default
         {% endif %}
 
         <div class="page__inner-wrap">
-            {% unless page.header.overlay_color or page.header.overlay_image %}
-                <header>
-                    {% if page.title %}
-                        <h1 class="page__title" id="page-title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>
-                    {% endif %}
-                </header>
-            {% endunless %}
+            <header>
+                <h1 class="page__title" id="page-title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" | prepend: title }}</h1>
+            </header>
 
             <section class="page__content" itemprop="text">
-                {% if page.toc %}
-                    {% include post/toc.html %}
-                {% endif %}
-
-                {{ content }}
-
                 {% if page.interpretation %}
                     <h2>Толкование</h2>
                     <div>
                         {{ page.interpretation }}
                     </div>
                 {% endif %}
-                {% if page.link %}
-                    <div>
-                        <a href="{{ page.link }}" class="btn btn--primary">{{ site.data.strings[site.locale].direct_link }}</a>
-                    </div>
-                {% endif %}
+                {{ content }}
             </section>
 
             {% include post/meta.html %}
@@ -66,10 +53,6 @@ layout: default
 
             {% include post/pagination.html %}
         </div>
-
-        {% if jekyll.environment == 'production' and site.comments.provider and page.comments %}
-            {% include comments.html %}
-        {% endif %}
     </article>
 
     {% include post/related.html %}

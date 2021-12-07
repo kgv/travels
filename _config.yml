@@ -212,7 +212,7 @@ defaults:
       path: ""
       type: terms
     values:
-      layout: single
+      layout: term
       share: true
       related: true
   # _toponyms

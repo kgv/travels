@@ -5,3 +5,5 @@ layout: collection
 permalink: /terms
 title: Термины
 ---
+
+Толковый словарь терминов.

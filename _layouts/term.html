@@ -1,6 +1,5 @@
 ---
 layout: default
-title: Термин
 ---
 
 {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
@@ -31,12 +30,11 @@ title: Термин
 
         <div class="page__inner-wrap">
             <header>
-                <h1 class="page__title" id="page-title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" | prepend: title }}</h1>
+                <h1 class="page__title" id="page-title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" | prepend: " " | prepend: site.data.strings[site.locale].term }}</h1>
             </header>
 
             <section class="page__content" itemprop="text">
                 {% if page.interpretation %}
-                    <h2>Толкование</h2>
                     <div>
                         {{ page.interpretation }}
                     </div>

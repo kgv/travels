@@ -30,7 +30,7 @@ en: &EN
   name: name
   next: next
   no_results: no results
-  on_this_page: on this page
+  table_of_contents: table of contents
   optional: optional
   page: page
   page_not_found: page not found
@@ -92,7 +92,7 @@ ru: &RU
   name: имя
   next: вперед
   no_results: нет результатов
-  on_this_page: содержание страницы
+  table_of_contents: содержание страницы
   optional: необязательно
   page: страница
   page_not_found: страница не найдена

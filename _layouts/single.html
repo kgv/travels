@@ -38,7 +38,7 @@ layout: default
             {% endunless %}
 
             <section class="page__content" itemprop="text">
-                {% if page.table_of_contents %}
+                {% if page.toc %}
                     {% include post/toc.html %}
                 {% endif %}
                 {{ content }}

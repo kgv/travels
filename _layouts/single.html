@@ -54,6 +54,12 @@ layout: default
                 </aside>
                 {% endif %}
                 {{ content }}
+                {% if page.interpretation %}
+                <h2>Толкование</h2>
+                <div>
+                    {{ page.interpretation }}
+                </div>
+                {% endif %}
                 {% if page.link %}
                 <div>
                     <a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label

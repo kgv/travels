@@ -12,7 +12,7 @@ en-AU: *EN
 ru: &RU
   - title: "Маршруты"
     url: /routes
-  - title: "Тармины"
+  - title: "Термины"
     url: /terms
   - title: "О нас"
     url: /about

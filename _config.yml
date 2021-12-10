@@ -244,8 +244,7 @@ sass:
 
 
 # Outputting
-permalink: /:categories/:year/:month/:day/
-# permalink: /:categories/:year/:month/:day/:title/
+permalink: pretty
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
 timezone: Europe/Moscow # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones

@@ -5,6 +5,6 @@ layout: collection
 permalink: /toponyms
 title: Топонимы
 sidebar:
-  title: Топонимы h
-  nav: toponyms
+  title: Топонимы
+  navigation: toponyms
 ---

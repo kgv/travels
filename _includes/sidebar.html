@@ -18,8 +18,8 @@
                     {% include navigation.html nav=s.nav %}
                 {% endif %}
             {% endfor %}
-            {% if page.sidebar.nav %}
-                {% include navigation.html nav=page.sidebar.nav %}
+            {% if page.sidebar.navigation %}
+                {% include navigation.html navigation=page.sidebar.navigation %}
             {% endif %}
         {% endif %}
     </div>

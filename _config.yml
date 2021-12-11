@@ -215,6 +215,9 @@ defaults:
       layout: term
       share: true
       related: true
+      sidebar:
+        title: Toponyms
+        navigation: toponyms
   # _toponyms
   - scope:
       path: ""

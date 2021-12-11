@@ -1,18 +1,20 @@
 # Toponyms navigation
 
 en: &EN
-  - title: Terms
-    url: /terms
   - title: Oikonyms
     url: /oikonyms
+  - title: Terms
+    url: /terms
 en-US: *EN
 en-CA: *EN
 en-GB: *EN
 en-AU: *EN
 
 ru: &RU
-  - title: Ойконимы
-    url: /oikonyms
-  - title: Термины
-    url: /terms
+  title: Топонимы
+  children:
+    - title: Ойконимы
+      url: /oikonyms
+    - title: Термины
+      url: /terms
 ru-RU: *RU

@@ -10,10 +10,15 @@ en-GB: *EN
 en-AU: *EN
 
 ru: &RU
-  - title: "Маршруты"
-    url: /routes
-  - title: "Термины"
-    url: /terms
+  - title: "Крым"
+    children:
+      - title: "Маршруты"
+        url: /routes
+      - title: "Топонимы"
+        url: /terms
+        children:
+        - title: "Термины"
+          url: /terms
   - title: "О нас"
     url: /about
 ru-RU: *RU

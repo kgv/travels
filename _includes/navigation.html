@@ -2,10 +2,16 @@
 
 <nav class="nav__list">
     {% if navigation.title %}
-        <h3 class="nav__title" style="padding-left: 0;">{{ navigation.title }}</h3>
+        {% if navigation.url %}
+            <a href="{{ navigation.url | relative_url }}">
+            {% endif %}
+            <h3 class="nav__title" style="padding-left: 0;">{{ navigation.title }}</h3>
+            {% if navigation.url %}
+            </a>
+        {% endif %}
     {% endif %}
     <input id="ac-toc" name="accordion-toc" type="checkbox"/>
-    <label for="ac-toc">{{ navigation.title }}</label>
+    <label for="ac-toc">{{ site.data.strings[site.locale].toggle_menu }}</label>
     {% if navigation.children %}
         <ul class="nav__items">
             {% for child in navigation.children %}
@@ -18,7 +24,7 @@
                         <span class="nav__sub-title">{{ child.title }}</span>
                     {% endif %}
 
-                    {% if child.children != null %}
+                    {% if child.children %}
                         <ul>
                             {% for child in child.children %}
                                 <li>

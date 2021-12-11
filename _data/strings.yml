@@ -61,13 +61,9 @@ en: &EN
   your_email_address_will_not_be_published: your email address will not be published
   term: term
   toponyms: toponyms
-en-US:
-  <<: *EN
-en-CA:
-  <<: *EN
 en-GB:
   <<: *EN
-en-AU:
+en-US:
   <<: *EN
 
 # Russian / Русский

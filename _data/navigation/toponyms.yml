@@ -7,13 +7,12 @@ en: &EN
       url: /oikonyms
     - title: Terms
       url: /terms
-en-US: *EN
-en-CA: *EN
 en-GB: *EN
-en-AU: *EN
+en-US: *EN
 
 ru: &RU
   title: Топонимы
+  url: /toponyms
   children:
     - title: Ойконимы
       url: /oikonyms

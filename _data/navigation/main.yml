@@ -7,10 +7,8 @@ en: &EN
     url: /toponyms
   - title: About
     url: /about
-en-US: *EN
-en-CA: *EN
 en-GB: *EN
-en-AU: *EN
+en-US: *EN
 
 ru: &RU
   - title: Маршруты

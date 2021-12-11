@@ -1,8 +1,11 @@
 # Main navigation
+
 en: &EN
-  - title: "Routes"
+  - title: Routes
     url: /routes
-  - title: "About"
+  - title: Toponyms
+    url: /toponyms
+  - title: About
     url: /about
 en-US: *EN
 en-CA: *EN
@@ -10,15 +13,10 @@ en-GB: *EN
 en-AU: *EN
 
 ru: &RU
-  - title: "Крым"
-    children:
-      - title: "Маршруты"
-        url: /routes
-      - title: "Топонимы"
-        url: /terms
-        children:
-        - title: "Термины"
-          url: /terms
-  - title: "О нас"
+  - title: Маршруты
+    url: /routes
+  - title: Топонимы
+    url: /toponyms
+  - title: О нас
     url: /about
 ru-RU: *RU

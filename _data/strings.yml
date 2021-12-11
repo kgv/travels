@@ -60,6 +60,7 @@ en: &EN
   website: website
   your_email_address_will_not_be_published: your email address will not be published
   term: term
+  toponyms: toponyms
 en-US:
   <<: *EN
 en-CA:
@@ -123,5 +124,6 @@ ru: &RU
   website: сайт
   your_email_address_will_not_be_published: ваш адрес электронной почты не будет опубликован
   term: термин
+  toponyms: топонимы?
 ru-RU:
   <<: *RU

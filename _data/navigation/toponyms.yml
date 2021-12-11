@@ -1,10 +1,12 @@
 # Toponyms navigation
 
 en: &EN
-  - title: Oikonyms
-    url: /oikonyms
-  - title: Terms
-    url: /terms
+  title: Toponyms
+  children:
+    - title: Oikonyms
+      url: /oikonyms
+    - title: Terms
+      url: /terms
 en-US: *EN
 en-CA: *EN
 en-GB: *EN

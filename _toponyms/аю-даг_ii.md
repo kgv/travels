@@ -1,7 +1,7 @@
 ---
-title: Аю-[Даг]({% link _terms/даг.md %}) II
+title: Аю-[Даг](terms/даг) II
 tags: [ороним]
-synonyms: Медведь-[Гора]({% link _terms/гора.md %}), Камелло, [Биюк]({% link _terms/биюк.md %})-Кастель, Аджу-[Даг]({% link _terms/даг.md %})
+synonyms: Медведь-[Гора](terms/гора), Камелло, [Биюк](terms/биюк)-Кастель, Аджу-[Даг](terms/даг)
 temp: ""
 ---
 

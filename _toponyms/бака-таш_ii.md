@@ -1,5 +1,5 @@
 ---
-title: Бака-[Таш]({% link _terms/таш.md %}) II
+title: Бака-[Таш](terms/таш) II
 tags: [ороним]
 synonyms: Сукновальня
 temp: "[&Б-14&]"

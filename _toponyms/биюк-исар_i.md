@@ -1,7 +1,7 @@
 ---
-title: [Биюк]({% link _terms/биюк.md %})-[Исар]({% link _terms/исар.md %}) I
+title: [Биюк](terms/биюк)-[Исар](terms/исар) I
 tags: [ороним]
-synonyms: Крестовая [Гора]({% link _terms/гора.md %}), Алупка-[Исар]({% link _terms/исар.md %})
+synonyms: Крестовая [Гора](terms/гора), Алупка-[Исар](terms/исар)
 temp: "[&И-5&]"
 ---
 

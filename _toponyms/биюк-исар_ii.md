@@ -1,7 +1,7 @@
 ---
-title: [Биюк]({% link _terms/биюк.md %})-[Исар]({% link _terms/исар.md %}) II
+title: [Биюк](terms/биюк)-[Исар](terms/исар) II
 tags: [ороним]
-synonyms: [Биюк]({% link _terms/биюк.md %})-Хисар
+synonyms: [Биюк](terms/биюк)-Хисар
 temp: "[&В-10&]-[&А-10&]"
 ---
 

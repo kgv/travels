@@ -1,5 +1,5 @@
 ---
-title: Бал-[Кая]({% link _terms/кая.md %}) I
+title: Бал-[Кая](terms/кая) I
 tags: [ороним]
 synonyms:
 temp: "[&В-15&]"

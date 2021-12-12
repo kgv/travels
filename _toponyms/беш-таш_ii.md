@@ -1,5 +1,5 @@
 ---
-title: [Беш]({% link _terms/беш.md %})-[Таш]({% link _terms/таш.md %}) II
+title: [Беш](terms/беш)-[Таш](terms/таш) II
 tags: [ороним]
 synonyms:
 temp: "[&И-5&]"

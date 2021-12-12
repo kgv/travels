@@ -1,5 +1,5 @@
 ---
-title: [Биюк]({% link _terms/биюк.md %})-[Бурун]({% link _terms/бурун.md %}) I
+title: [Биюк](terms/биюк)-[Бурун](terms/бурун) I
 tags: [ороним]
 synonyms:
 temp: ""

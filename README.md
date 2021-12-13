@@ -581,3 +581,11 @@ synonyms: $3
 temp: "$5"
 ---
 $4
+
+```
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+```

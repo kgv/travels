@@ -1,0 +1,5 @@
+{% assign title = post.title | split: ", " %}
+{% for synonym in post.synonyms %}
+    {% assign title = title | push: synonym %}
+{% endfor %}
+{{ title | join: ", " | markdownify | strip_html }}

@@ -158,7 +158,7 @@ markdown_ext: "markdown,md"
 
 
 # Conversion
-markdown: kramdown
+markdown: GFM
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
@@ -222,7 +222,7 @@ defaults:
       path: ""
       type: toponyms
     values:
-      layout: single
+      layout: toponym
       related: true
       share: true
       sidebar:

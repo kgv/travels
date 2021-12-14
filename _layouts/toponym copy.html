@@ -2,13 +2,19 @@
 layout: default
 ---
 
-{% if page.title %}
-{% capture title %}
-{{ page.titles | map: "name" | join: ", " }}
-
-{% include links/toponyms/terms.md %}
+{% capture text %}
+# {% include toponym/title.md.liquid interpretations=true %}
+<!---->
+{{ content }}
+<!---->
+{% include toponym/interpretations.md.liquid %}
+{% include toponym/abbreviations.md %}
+{% include toponym/links.md %}
 {% endcapture %}
-{% endif %}
+{% assign parts = text | markdownify | split: "<!---->" %}
+{% assign title = parts[0] %}
+{% assign content = parts[1] %}
+{% assign footer = parts[2] %}
 
 <div id="main" role="main">
     {% include sidebar.html %}
@@ -31,6 +37,8 @@ layout: default
         {% endif %}
 
         <div class="page__inner-wrap">
+            {{ text | markdownify }}
+
             <header>
                 {% if title %}
                     <h1 class="page__title" id="page-title" itemprop="headline">{{ title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>

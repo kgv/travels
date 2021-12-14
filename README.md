@@ -604,3 +604,11 @@ $4
 {% capture title %}{{ item.name }}[^{{ item.footnote }}]{% endcapture %}
 {{ title | append: item.name | append: "[^" | append: item.footnote | append: "], " }}
 {% endfor %}
+
+{% if page.title %}
+{% capture title %}
+{{ page.titles | map: "name" | join: ", " }}
+
+{% include links/toponyms/terms.md %}
+{% endcapture %}
+{% endif %}

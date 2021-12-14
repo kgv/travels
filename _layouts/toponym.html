@@ -1,0 +1,80 @@
+---
+layout: default
+---
+
+{% capture text %}
+# {% include toponym/title.md.liquid interpretations=true %}
+<!---->
+{{ content }}
+{% include toponym/interpretations.md.liquid %}
+{% include toponym/abbreviations.md %}
+{% include toponym/links.md %}
+{% endcapture %}
+{% assign splited = text | markdownify | split: "<!---->" %}
+{% assign title = splited | first %}
+{% assign content = splited | last %}
+
+{% capture temp %}
+```
+# {% include toponym/title.md.liquid interpretations=true %}
+<!---->
+{{ content }}
+{% include toponym/interpretations.md.liquid %}
+{% include toponym/abbreviations.md %}
+{% include toponym/links.md %}
+```
+{% endcapture %}
+
+<div id="main" role="main">
+    {% include sidebar.html %}
+
+    <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+        {% if title %}
+            <meta itemprop="headline" content="{{ title | markdownify | strip_html | strip_newlines | escape_once }}">
+        {% endif %}
+
+        {% if page.excerpt %}
+            <meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">
+        {% endif %}
+
+        {% if page.date %}
+            <meta itemprop="datePublished" content="{{ page.date | date_to_xmlschema }}">
+        {% endif %}
+
+        {% if page.last_modified_at %}
+            <meta itemprop="dateModified" content="{{ page.last_modified_at | date_to_xmlschema }}">
+        {% endif %}
+
+        <div class="page__inner-wrap">
+            {{ temp | markdownify }}
+
+            <header>
+                {{ title }}
+            </header>
+
+            <section class="page__content" itemprop="text">
+                {% if page.toc %}
+                    {% include post/toc.html %}
+                {% endif %}
+
+                {{ content }}
+
+                {% if page.link %}
+                    <div>
+                        <a href="{{ page.link }}" class="btn btn--primary">{{ site.data.strings[site.locale].direct_link }}</a>
+                    </div>
+                {% endif %}
+            </section>
+
+            {% include post/meta.html %}
+
+            {% if page.share %}
+                {% include social-share.html %}
+            {% endif %}
+
+            {% include post/pagination.html %}
+        </div>
+    </article>
+
+    {% include post/related.html %}
+</div>

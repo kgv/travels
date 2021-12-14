@@ -2,9 +2,9 @@
 layout: default
 ---
 
-{% if page.names %}
+{% if page.title %}
 {% capture title %}
-{{ page.names | join: ", " }}
+{{ page.titles | map: "name" | join: ", " }}
 
 {% include links/toponyms/terms.md %}
 {% endcapture %}

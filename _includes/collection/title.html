@@ -1,5 +1,6 @@
-{% assign title = post.title | split: ", " %}
-{% for synonym in post.synonyms %}
-    {% assign title = title | push: synonym %}
+{% assign title = "" %}
+{% for item in post.title %}
+    {% capture footnote %}{{ item.name }}[^{{ item.footnote }}]{% endcapture %}
+    {% assign title | append: name %}
 {% endfor %}
 {{ title | join: ", " | markdownify | strip_html }}

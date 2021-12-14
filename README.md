@@ -589,3 +589,18 @@ $4
   {% assign title = post.title %}
 {% endif %}
 ```
+
+{% if page.names %}
+
+{% capture title %}
+{{ page.names | map: "name" | join: ", " }}
+
+{% include links/toponyms/terms.md %}
+{% endcapture %}
+{% endif %}
+
+{% assign title = "" %}
+{% for item in page.names %}
+{% capture title %}{{ item.name }}[^{{ item.footnote }}]{% endcapture %}
+{{ title | append: item.name | append: "[^" | append: item.footnote | append: "], " }}
+{% endfor %}

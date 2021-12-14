@@ -7,23 +7,11 @@ layout: default
 <!---->
 {{ content }}
 {% include toponym/interpretations.md.liquid %}
-{% include toponym/abbreviations.md %}
 {% include toponym/links.md %}
 {% endcapture %}
 {% assign splited = text | markdownify | split: "<!---->" %}
 {% assign title = splited | first %}
 {% assign content = splited | last %}
-
-{% capture temp %}
-```
-# {% include toponym/title.md.liquid interpretations=true %}
-<!---->
-{{ content }}
-{% include toponym/interpretations.md.liquid %}
-{% include toponym/abbreviations.md %}
-{% include toponym/links.md %}
-```
-{% endcapture %}
 
 <div id="main" role="main">
     {% include sidebar.html %}

@@ -1,4 +1,4 @@
-{% for toponym in site.data.toponyms %}
-[{{ toponym[0] }}]: http://wikimapia.org/{{ toponym[1].wikimapia }}/{{ site.language }}
+{% for id in site.data.wikimapia %}
+[{{ id }}]: http://wikimapia.org/{{ id }}/{{ site.language }}
 {:target="_blank"}
 {% endfor %}

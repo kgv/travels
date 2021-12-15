@@ -2,16 +2,7 @@
 layout: default
 ---
 
-{% capture text %}
-# {% include toponym/title.md.liquid interpretations=true %}
-<!---->
-{{ content }}
-{% include toponym/interpretations.md.liquid %}
-{% include toponym/links.md %}
-{% endcapture %}
-{% assign splited = text | markdownify | split: "<!---->" %}
-{% assign title = splited | first %}
-{% assign content = splited | last %}
+{% include toponym.liquid %}
 
 <div id="main" role="main">
     {% include sidebar.html %}
@@ -34,8 +25,6 @@ layout: default
         {% endif %}
 
         <div class="page__inner-wrap">
-            {{ temp | markdownify }}
-
             <header>
                 {{ title }}
             </header>

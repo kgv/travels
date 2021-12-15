@@ -1,0 +1,11 @@
+{% capture _page %}
+# {{ page.title | join: ", " }}
+<!---->
+{{ content }}
+{% include toponym/interpretations.md.liquid %}
+{% include toponym/links.md %}
+{% endcapture %}
+
+{% assign _splitted = _page | markdownify | split: "<!---->" %}
+{% assign title = _splitted | first %}
+{% assign content = _splitted | last %}

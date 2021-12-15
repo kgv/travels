@@ -1,6 +1,7 @@
 {% capture _page %}
 # {{ page.title | join: ", " }}
 <!---->
+{% include toponym/maps.html.liquid %}
 {{ content }}
 {% include toponym/footnotes.md.liquid %}
 {% include toponym/links.md.liquid %}

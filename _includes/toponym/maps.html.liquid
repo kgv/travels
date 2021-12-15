@@ -1,0 +1,4 @@
+{% for map in page.maps %}
+{% capture _path %}/assets/images/map/{{ map }}.jpg{% endcapture %}
+{% include figure.html alt = map path = _path %}
+{% endfor %}

@@ -236,7 +236,7 @@ defaults:
     values:
       author_profile: true
       comments: true
-      layout: single
+      layout: post
       read_time: true
       related: true
       share: true

@@ -1,7 +1,0 @@
-{%- for item in page.title -%}
-    {{ item.name }}
-    {%- if include.interpretations -%}
-        {%- for interpretation in item.interpretations %} [^{{ interpretation }}]{% endfor -%}
-    {%- endif -%}
-    {%- unless forloop.last -%}, {% endunless -%}
-{%- endfor -%}

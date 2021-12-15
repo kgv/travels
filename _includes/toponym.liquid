@@ -2,8 +2,8 @@
 # {{ page.title | join: ", " }}
 <!---->
 {{ content }}
-{% include toponym/interpretations.md.liquid %}
-{% include toponym/links.md %}
+{% include toponym/footnotes.md.liquid %}
+{% include toponym/links.md.liquid %}
 {% endcapture %}
 
 {% assign _splitted = _page | markdownify | split: "<!---->" %}

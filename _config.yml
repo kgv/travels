@@ -3,6 +3,8 @@ remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
+language: &language "ru"
+territory: &territory "RU"
 locale: "ru-RU"
 title: "Hiking & Traveling"
 title_separator: "-"

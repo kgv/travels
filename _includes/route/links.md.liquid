@@ -1,0 +1,24 @@
+{% for dromonym in site.data.toponyms.dromonyms %}
+[{{ dromonym[0] }}]: http://wikimapia.org/{{ dromonym[1] }}/{{ site.language }}
+{:target="_blank"}
+{% endfor %}
+
+{% for drymonym in site.data.toponyms.drymonyms %}
+[{{ drymonym[0] }}]: http://wikimapia.org/{{ drymonym[1] }}/{{ site.language }}
+{:target="_blank"}
+{% endfor %}
+
+{% for hydronym in site.data.toponyms.hydronyms %}
+[{{ hydronym[0] }}]: http://wikimapia.org/{{ hydronym[1] }}/{{ site.language }}
+{:target="_blank"}
+{% endfor %}
+
+{% for oikonym in site.data.toponyms.oikonyms %}
+[{{ oikonym[0] }}]: http://wikimapia.org/{{ oikonym[1] }}/{{ site.language }}
+{:target="_blank"}
+{% endfor %}
+
+{% for oronym in site.data.toponyms.oronyms %}
+[{{ oronym[0] }}]: http://wikimapia.org/{{ oronym[1] }}/{{ site.language }}
+{:target="_blank"}
+{% endfor %}

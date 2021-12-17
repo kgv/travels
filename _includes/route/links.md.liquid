@@ -1,15 +1,15 @@
-{% for hydronym in site.data._toponyms.hydronyms %}
+{%- for hydronym in site.data._toponyms.hydronyms -%}
 {% include route/link.md.liquid toponym = hydronym %}
-{% endfor %}
+{%- endfor -%}
 
-{% for oikonym in site.data._toponyms.oikonyms %}
+{%- for oikonym in site.data._toponyms.oikonyms -%}
 {% include route/link.md.liquid toponym = oikonym %}
-{% endfor %}
+{%- endfor -%}
 
-{% for oronym in site.data._toponyms.oronyms %}
+{%- for oronym in site.data._toponyms.oronyms -%}
 {% include route/link.md.liquid toponym = oronym %}
-{% endfor %}
+{%- endfor -%}
 
-{% for speleonym in site.data._toponyms._oronyms.speleonyms %}
+{%- for speleonym in site.data._toponyms._oronyms.speleonyms -%}
 {% include route/link.md.liquid toponym = speleonym %}
-{% endfor %}
+{%- endfor -%}

@@ -1,12 +1,9 @@
-{% assign type = site.data.strings[site.locale][include.toponym.type] | capitalize %}
-{% if include.toponym.name %}
-    {% assign id = include.toponym.name %}
-{% else %}
-    {% capture id %}{{ include.toponym.coordinates.latitude }}, {{ include.toponym.coordinates.longitude }}{% endcapture %}
-{% endif %}
-{% if include.toponym.links["openstreetmap.org"] %}
-    {% assign link = include.toponym.links["openstreetmap.org"] %}
-{% elsif include.toponym.links["wikimapia.org"] %}
-    {% assign link = include.toponym.links["wikimapia.org"] %}
-{% endif %}
-[{{ type }}: {{ id }}]: {{ link }}
+{%- assign id = site.data.strings[site.locale][include.toponym.type] | capitalize -%}
+{%- if include.toponym.name %}
+    {% capture id %}{{ id }} "{{ include.toponym.name }}"{% endcapture %}
+{% endif -%}
+{%- assign id = id | append: ':' -%}
+{%- if include.toponym.coordinates %}
+    {% capture id %}{{ id }} {{ include.toponym.coordinates.latitude }}, {{ include.toponym.coordinates.longitude }}{% endcapture %}
+{% endif -%}
+[{{ id }}]: {{ include.toponym.link }}

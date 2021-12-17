@@ -131,5 +131,6 @@ ru: &RU
   ridge: горный хребет
   locality: урочище
   spring: родник
+  ravine: овраг
 ru-RU:
   <<: *RU

@@ -1,12 +1,12 @@
-- links:
-    openstreetmap.org: https://openstreetmap.org/relation/3018346
+- link: https://openstreetmap.org/relation/3018346
   name: Кореиз
+  provider: openstreetmap.org
   type: town
-- links:
-    openstreetmap.org: https://openstreetmap.org/way/30712251
+- link: https://openstreetmap.org/way/30712251
   name: Кизиловое
+  provider: openstreetmap.org
   type: village
-- links:
-    openstreetmap.org: https://openstreetmap.org/relation/3832516
+- link: https://openstreetmap.org/relation/3832516
   name: Балаклава
+  provider: openstreetmap.org
   type: town

@@ -1,7 +1,12 @@
-- coordinates:
-    latitude: 44.4341131
-    longitude: 34.0919813
-  links:
-    - https://openstreetmap.org/node/337700260
+- links:
+    - https://openstreetmap.org/relation/3018346
   name: Кореиз
+  type: town
+- links:
+    - https://openstreetmap.org/way/30712251
+  name: Кизиловое
+  type: village
+- links:
+    - https://openstreetmap.org/relation/3832516
+  name: Балаклава
   type: town

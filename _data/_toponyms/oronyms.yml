@@ -68,7 +68,6 @@
     longitude: 34.0004054
   links:
     - https://openstreetmap.org/node/5890678206
-  name: Высота 1179
   type: peak
 - coordinates:
     latitude: 44.4296965
@@ -76,7 +75,7 @@
   links:
     - https://openstreetmap.org/node/1207853240
   name: Затерянный мир
-  type: null
+  type: locality
 - coordinates:
     latitude: 44.4232878
     longitude: 33.8563863
@@ -267,3 +266,29 @@
     - https://openstreetmap.org/node/802033282
   name: Эски-Богаз
   type: saddle
+- coordinates:
+    latitude: 44.4971429
+    longitude: 33.6061342
+  links:
+    - https://openstreetmap.org/node/4463962611
+  name: Крепостная
+  type: peak
+- links:
+    - https://wikimapia.org/25468203
+  name: Биллер
+  type: ridge
+- coordinates:
+    latitude: 44.4366393
+    longitude: 33.6585127
+  links:
+    - https://openstreetmap.org/node/3909291899
+    - https://wikimapia.org/6415281
+  name: Самналых-Бурун
+  type: peak
+- coordinates:
+    latitude: 44.4699702
+    longitude: 33.6426281
+  links:
+    - https://openstreetmap.org/node/1127675851
+  name: Аязьма
+  type: locality

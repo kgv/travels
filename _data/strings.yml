@@ -121,5 +121,9 @@ ru: &RU
   your_email_address_will_not_be_published: ваш адрес электронной почты не будет опубликован
   term: термин
   toponyms: топонимы?
+  town: город
+  saddle: перевал
+  peak: пик
+  cave_entrance: вход в пещеру
 ru-RU:
   <<: *RU

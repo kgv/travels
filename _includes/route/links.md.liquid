@@ -1,14 +1,13 @@
 {% for oikonym in site.data._toponyms.oikonyms %}
-[{{ oikonym.type }}: {% if oikonym.name %}{{ oikonym.name }}{% else %}{{ oikonym.coordinates.latitude }}, {{ oikonym.coordinates.longitude }}{% endif %}]: {{ oikonym.links[0] }}
+[{{ site.data.strings[site.locale][oikonym.type] }}: {% if oikonym.name %}{{ oikonym.name }}{% else %}{{ oikonym.coordinates.latitude }}, {{ oikonym.coordinates.longitude }}{% endif %}]: {{ oikonym.links[0] }}
 {:target="_blank"}
 {% endfor %}
 
 {% for oronym in site.data._toponyms.oronyms %}
-[{{ oronym.type }}: {% if oronym.name %}{{ oronym.name }}{% else %}{{ oronym.coordinates.latitude }}, {{ oronym.coordinates.longitude }}{% endif %}]: {{ oronym.links[0] }}
+[{{ site.data.strings[site.locale][oronym.type] }}: {% if oronym.name %}{{ oronym.name }}{% else %}{{ oronym.coordinates.latitude }}, {{ oronym.coordinates.longitude }}{% endif %}]: {{ oronym.links[0] }}
 {:target="_blank"}
 {% endfor %}
 
 {% for speleonym in site.data._toponyms._oronyms.speleonyms %}
-[{{ speleonym.type }}: {% if speleonym.name %}{{ speleonym.name }}{% else %}{{ speleonym.coordinates.latitude }}, {{ speleonym.coordinates.longitude }}{% endif %}]: {{ speleonym.links[0] }}
-{:target="_blank"}
+{% include_relative link.md.liquid %}
 {% endfor %}

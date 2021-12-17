@@ -1,1 +1,1 @@
-[{{ site.data.strings[site.locale][include.type] }}: {% if include.name %}{{ include.name }}{% else %}{{ include.coordinates.latitude }}, {{ include.coordinates.longitude }}{% endif %}]: {{ include.links[0] }}
+[{{ site.data.strings[site.locale][include.toponym.type] | capitalize }}: {% if include.toponym.name %}{{ include.toponym.name }}{% else %}{{ include.toponym.coordinates.latitude }}, {{ include.toponym.coordinates.longitude }}{% endif %}]: {{ include.toponym.links[0] }}

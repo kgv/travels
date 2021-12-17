@@ -65,3 +65,5 @@ coordinates:\n\s+(latitude: [34]{2}\.[0-9]{1,7})\n\s+(longitude: [34]{2}\.[0-9]{
     - https://openstreetmap.org/node/
   name: 
   natural: 
+
+# {:target="_blank"}

@@ -1,3 +1,7 @@
+{% for hydronym in site.data._toponyms.hydronyms %}
+{% include route/link.md.liquid toponym = hydronym %}
+{% endfor %}
+
 {% for oikonym in site.data._toponyms.oikonyms %}
 {% include route/link.md.liquid toponym = oikonym %}
 {% endfor %}

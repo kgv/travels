@@ -1,5 +1,5 @@
-## {{ site.data.strings[site.locale]points_of_interest }}
+## {{ site.data.strings[site.locale].points_of_interest | capitalize }}
 
 {% for _tag in page.temps %}
-- [{% for _part in _tag %}{{ _part[0] }}: {{ _part[1] }}{% endfor %}]{: target = "_blank" }
+- [{% for _part in _tag %}{{ _part[0] }}: {{ _part[1] }}{% endfor %}]{: target="_blank" }
 {% endfor %}

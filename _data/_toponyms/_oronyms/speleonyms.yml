@@ -2,159 +2,155 @@
     latitude: 44.4215558
     longitude: 33.8740487
   links:
-    - https://www.openstreetmap.org/node/5618066098
+    openstreetmap.org: https://openstreetmap.org/node/5618066098
   name: Белянского
   type: cave_entrance
 - coordinates:
     latitude: 44.4558269
     longitude: 34.0533516
   links:
-    - https://ru.wikipedia.org/wiki/Геофизическая_пещера
-    - https://www.openstreetmap.org/node/2095257184
+    openstreetmap.org: https://openstreetmap.org/node/2095257184
   name: Геофизическая
   type: cave_entrance
 - coordinates:
     latitude: 44.42262
     longitude: 33.9148528
   links:
-    - https://www.openstreetmap.org/node/3886031899
+    openstreetmap.org: https://openstreetmap.org/node/3886031899
   name: Дружба
   type: cave_entrance
 - coordinates:
     latitude: 44.4175679
     longitude: 33.8410284
   links:
-    - https://www.openstreetmap.org/node/5039756227
+    openstreetmap.org: https://openstreetmap.org/node/5039756227
   name: Жемчужная
   type: cave_entrance
 - coordinates:
     latitude: 44.4446064
     longitude: 33.8836125
   links:
-    - https://www.openstreetmap.org/node/6994626235
+    openstreetmap.org: https://openstreetmap.org/node/6994626235
   name: Земляничная
   type: cave_entrance
 - coordinates:
     latitude: 44.4510807
     longitude: 34.0436712
   links:
-    - https://ru.wikipedia.org/wiki/Каскадная_пещера
-    - https://www.openstreetmap.org/node/3820326284
+    openstreetmap.org: https://openstreetmap.org/node/3820326284
   name: Каскадная
   type: cave_entrance
 - coordinates:
     latitude: 44.4459468
     longitude: 33.9115443
   links:
-    - https://www.openstreetmap.org/node/3198088969
+    openstreetmap.org: https://openstreetmap.org/node/3198088969
   name: Кристальная
   type: cave_entrance
 - coordinates:
     latitude: 44.422546
     longitude: 33.8720387
   links:
-    - https://www.openstreetmap.org/node/4795518033
+    openstreetmap.org: https://openstreetmap.org/node/4795518033
   name: Мердвен-Каясы
   type: cave_entrance
 - coordinates:
     latitude: 44.4534595
     longitude: 34.0658591
   links:
-    - https://www.openstreetmap.org/node/3884902455
+    openstreetmap.org: https://openstreetmap.org/node/3884902455
   name: Мисхорский грот
   type: cave_entrance
 - coordinates:
     latitude: 44.4587989
     longitude: 33.9043472
   links:
-    - https://www.openstreetmap.org/node/6331339954
+    openstreetmap.org: https://openstreetmap.org/node/6331339954
   name: Палласа
   type: cave_entrance
 - coordinates:
     latitude: 44.4247805
     longitude: 33.8995522
   links:
-    - https://www.openstreetmap.org/node/3886031953
+    openstreetmap.org: https://openstreetmap.org/node/3886031953
   type: cave_entrance
 - coordinates:
     latitude: 44.4422547
     longitude: 34.0045763
   links:
-    - https://www.openstreetmap.org/node/6306852385
+    openstreetmap.org: https://openstreetmap.org/node/6306852385
   type: cave_entrance
 - coordinates:
     latitude: 44.4466737
     longitude: 33.9013789
   links:
-    - https://www.openstreetmap.org/node/6994598348
+    openstreetmap.org: https://openstreetmap.org/node/6994598348
   type: cave_entrance
 - coordinates:
     latitude: 44.4542696
     longitude: 34.0518514
   links:
-    - https://www.openstreetmap.org/node/3886589964
+    openstreetmap.org: https://openstreetmap.org/node/3886589964
   type: cave_entrance
 - coordinates:
     latitude: 44.4592027
     longitude: 33.8964473
   links:
-    - https://www.openstreetmap.org/node/5950416480
+    openstreetmap.org: https://openstreetmap.org/node/5950416480
   type: cave_entrance
 - coordinates:
     latitude: 44.4447621
     longitude: 33.8555331
   links:
-    - https://www.openstreetmap.org/node/5606111398
+    openstreetmap.org: https://openstreetmap.org/node/5606111398
   name: Пещера Нассонова
   type: cave_entrance
 - coordinates:
     latitude: 44.4483184
     longitude: 33.9531238
   links:
-    - https://www.openstreetmap.org/node/2021430482
+    openstreetmap.org: https://openstreetmap.org/node/2021430482
   name: Татьянин грот
   type: cave_entrance
 - coordinates:
     latitude: 44.4567229
     longitude: 34.0548207
   links:
-    - https://ru.wikipedia.org/wiki/Трёхглазка_(пещера)
-    - https://www.openstreetmap.org/node/1012327887
+    openstreetmap.org: https://openstreetmap.org/node/1012327887
   name: Трёхглазка
   type: cave_entrance
 - coordinates:
     latitude: 44.4444767
     longitude: 33.8989875
   links:
-    - https://www.openstreetmap.org/node/7472756955
+    openstreetmap.org: https://openstreetmap.org/node/7472756955
   name: Уральская
   type: cave_entrance
 - coordinates:
     latitude: 44.4049662
     longitude: 33.7839388
   links:
-    - https://www.openstreetmap.org/node/3885940534
+    openstreetmap.org: https://openstreetmap.org/node/3885940534
   name: Форосская
   type: cave_entrance
 - coordinates:
     latitude: 44.4535277
     longitude: 34.0233539
   links:
-    - https://www.openstreetmap.org/node/6328512725
+    openstreetmap.org: https://openstreetmap.org/node/6328512725
   name: Шахта Каскадная
   type: cave_entrance
 - coordinates:
     latitude: 44.4311635
     longitude: 33.9359008
   links:
-    - https://www.openstreetmap.org/node/3467543623
+    openstreetmap.org: https://openstreetmap.org/node/3467543623
   name: Шахта Крымская
   type: cave_entrance
 - coordinates:
     latitude: 44.4556321
     longitude: 34.0568974
   links:
-    - https://ru.wikipedia.org/wiki/Ялтинская_пещера
-    - https://www.openstreetmap.org/node/1012327886
+    openstreetmap.org: https://openstreetmap.org/node/1012327886
   name: Ялтинская
   type: cave_entrance

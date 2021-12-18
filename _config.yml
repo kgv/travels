@@ -194,14 +194,6 @@ collections:
 
 # Defaults
 defaults:
-  # _localities
-  - scope:
-      path: ""
-      type: localities
-    values:
-      layout: single
-      related: true
-      share: true
   # _pages
   - scope:
       path: "_pages"

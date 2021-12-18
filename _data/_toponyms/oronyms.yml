@@ -1,335 +1,215 @@
-- coordinates:
-    latitude: 44.448305
-    longitude: 34.055986
-  link: https://openstreetmap.org/node/481281169
-  name: Ай-Петри
-  provider: openstreetmap.org
-  type: peak
-- coordinates:
-    latitude: 44.434279
-    longitude: 33.95597
-  link: https://openstreetmap.org/node/2154900992
-  name: Аскер-Кач-Атан
-  provider: openstreetmap.org
-  type: saddle
-- coordinates:
-    latitude: 44.438616
-    longitude: 33.983178
-  link: https://openstreetmap.org/node/2187350513
-  name: Ат-Баш
-  provider: openstreetmap.org
-  type: peak
-- coordinates:
-    latitude: 44.43788
-    longitude: 33.976343
-  link: https://openstreetmap.org/node/802033312
-  name: Ат-Баш-Богаз
-  provider: openstreetmap.org
-  type: saddle
-- coordinates:
-    latitude: 44.423185
-    longitude: 33.860395
-  link: https://openstreetmap.org/node/6018356296
-  name: Балчик-Кая
-  provider: openstreetmap.org
-  type: rock
-- coordinates:
-    latitude: 44.426416
-    longitude: 33.894241
-  link: https://openstreetmap.org/node/3114654959
-  name: Балчик-Кая
-  provider: openstreetmap.org
-  type: peak
-- coordinates:
-    latitude: 44.435686
-    longitude: 33.967595
-  link: https://openstreetmap.org/node/5912602017
-  name: Беш-Текне
-  provider: openstreetmap.org
-  type: peak
-- coordinates:
-    latitude: 44.44776
-    longitude: 34.050642
-  link: https://openstreetmap.org/node/3102875793
-  name: Вестрон
-  provider: openstreetmap.org
-  type: peak
-- coordinates:
-    latitude: 44.456808
-    longitude: 34.068385
-  link: https://openstreetmap.org/node/4144596879
-  name: Воронья Скала
-  provider: openstreetmap.org
-  type: peak
-- coordinates:
-    latitude: 44.441074
-    longitude: 34.000405
-  link: https://openstreetmap.org/node/5890678206
-  provider: openstreetmap.org
-  type: peak
-- coordinates:
-    latitude: 44.429696
-    longitude: 33.649288
-  link: https://openstreetmap.org/node/1207853240
-  name: Затерянный Мир
-  provider: openstreetmap.org
-  type: locality
-- coordinates:
-    latitude: 44.423287
-    longitude: 33.856386
-  link: https://openstreetmap.org/node/2634194181
-  name: Исар-Кая
-  provider: openstreetmap.org
-  type: peak
-- coordinates:
-    latitude: 44.424689
-    longitude: 33.903228
-  link: https://openstreetmap.org/node/2367784692
-  name: Кастропольская
-  provider: openstreetmap.org
-  type: peak
-- coordinates:
-    latitude: 44.424361
-    longitude: 33.923831
-  link: https://openstreetmap.org/node/2154860064
-  name: Керезла-Богаз
-  provider: openstreetmap.org
-  type: saddle
-- coordinates:
-    latitude: 44.42796
-    longitude: 33.940599
-  link: https://openstreetmap.org/node/5938291393
-  name: Кикинеиз Западный
-  provider: openstreetmap.org
-  type: saddle
-- coordinates:
-    latitude: 44.427242
-    longitude: 33.657114
-  link: https://openstreetmap.org/node/1020089193
-  name: Кокия-Кая
-  provider: openstreetmap.org
-  type: peak
-- coordinates:
-    latitude: 44.441514
-    longitude: 34.010961
-  link: https://openstreetmap.org/node/2152399846
-  name: Копек-Богаз
-  provider: openstreetmap.org
-  type: saddle
-- coordinates:
-    latitude: 44.443729
-    longitude: 33.936834
-  link: https://openstreetmap.org/node/7923272524
-  name: Куняшлы-Баир
-  provider: openstreetmap.org
-  type: peak
-- coordinates:
-    latitude: 44.444249
-    longitude: 34.025007
-  link: https://openstreetmap.org/node/3102875796
-  name: Купол
-  provider: openstreetmap.org
-  type: peak
-- coordinates:
-    latitude: 44.442033
-    longitude: 34.013993
-  link: https://openstreetmap.org/node/5913579107
-  name: Кучук-Нишан-Хая
-  provider: openstreetmap.org
-  type: peak
-- coordinates:
-    latitude: 44.425479
-    longitude: 33.680459
-  link: https://openstreetmap.org/node/1404438104
-  name: Куш-Кая
-  provider: openstreetmap.org
-  type: peak
-- coordinates:
-    latitude: 44.42889
-    longitude: 33.707041
-  link: https://openstreetmap.org/node/1774957162
-  name: Ласпи
-  provider: openstreetmap.org
-  type: saddle
-- coordinates:
-    latitude: 44.448364
-    longitude: 34.043978
-  link: https://openstreetmap.org/node/5165133071
-  name: Малай-Богаз
-  provider: openstreetmap.org
-  type: saddle
-- coordinates:
-    latitude: 44.42323
-    longitude: 33.858021
-  link: https://openstreetmap.org/node/5894195753
-  name: Мердвен-Исар
-  provider: openstreetmap.org
-  type: saddle
-- coordinates:
-    latitude: 44.421644
-    longitude: 33.851598
-  link: https://openstreetmap.org/node/2634194182
-  name: Мердвен-Кая
-  provider: openstreetmap.org
-  type: peak
-- coordinates:
-    latitude: 44.4235
-    longitude: 33.871849
-  link: https://openstreetmap.org/node/2367784699
-  name: Мердвен-Каясы
-  provider: openstreetmap.org
-  type: peak
-- coordinates:
-    latitude: 44.434247
-    longitude: 33.95388
-  link: https://openstreetmap.org/node/790069568
-  name: Миэссис-Богаз
-  provider: openstreetmap.org
-  type: saddle
-- coordinates:
-    latitude: 44.423387
-    longitude: 33.92553
-  link: https://openstreetmap.org/node/2187361855
-  name: Морчека
-  provider: openstreetmap.org
-  type: peak
-- coordinates:
-    latitude: 44.430906
-    longitude: 33.945906
-  link: https://openstreetmap.org/node/5938291424
-  name: Пелит-Топчан
-  provider: openstreetmap.org
-  type: saddle
-- coordinates:
-    latitude: 44.430264
-    longitude: 33.929731
-  link: https://openstreetmap.org/node/3198088970
-  name: Сахарка
-  provider: openstreetmap.org
-  type: peak
-- coordinates:
-    latitude: 44.442793
-    longitude: 34.004222
-  link: https://openstreetmap.org/node/2152400011
-  name: Симеиз-Богаз
-  provider: openstreetmap.org
-  type: saddle
-- coordinates:
-    latitude: 44.424276
-    longitude: 33.880294
-  link: https://openstreetmap.org/node/5891749449
-  name: Собачья Лестница
-  provider: openstreetmap.org
-  type: saddle
-- coordinates:
-    latitude: 44.432754
-    longitude: 33.947693
-  link: https://openstreetmap.org/node/2187353623
-  name: Спирады
-  provider: openstreetmap.org
-  type: peak
-- coordinates:
-    latitude: 44.452626
-    longitude: 33.910649
-  link: https://openstreetmap.org/node/3102875801
-  name: Тарпан-Баир
-  provider: openstreetmap.org
-  type: peak
-- coordinates:
-    latitude: 44.423473
-    longitude: 33.916327
-  link: https://openstreetmap.org/node/4775015904
-  name: Треугольник
-  provider: openstreetmap.org
-  type: peak
-- coordinates:
-    latitude: 44.459016
-    longitude: 33.896926
-  link: https://openstreetmap.org/node/3102875803
-  name: Чуваш-Кой
-  provider: openstreetmap.org
-  type: peak
-- coordinates:
-    latitude: 44.422342
-    longitude: 33.855286
-  link: https://openstreetmap.org/node/847044584
-  name: Шайтан-Мердвен
-  provider: openstreetmap.org
-  type: saddle
-- coordinates:
-    latitude: 44.436968
-    longitude: 33.970374
-  link: https://openstreetmap.org/node/802033282
-  name: Эски-Богаз
-  provider: openstreetmap.org
-  type: saddle
-- coordinates:
-    latitude: 44.497142
-    longitude: 33.606134
-  link: https://openstreetmap.org/node/4463962611
-  name: Крепостная
-  provider: openstreetmap.org
-  type: peak
-- coordinates:
-    latitude: 44.436639
-    longitude: 33.658512
-  link: https://openstreetmap.org/node/3909291899
-  name: Самналых-Бурун
-  provider: openstreetmap.org
-  type: peak
-- coordinates:
-    latitude: 44.46997
-    longitude: 33.642628
-  link: https://openstreetmap.org/node/1127675851
-  name: Аязьма
-  provider: openstreetmap.org
-  type: locality
-- coordinates:
-    latitude: 44.492446
-    longitude: 33.620253
-  link: https://openstreetmap.org/node/3083519516
-  name: Аскети
-  provider: openstreetmap.org
-  type: peak
-- coordinates:
-    latitude: 44.453611
-    longitude: 33.6625
-  link: https://wikimapia.org/25468203
-  name: Биллер
-  provider: wikimapia.org
-  type: ridge
-- coordinates:
-    latitude: 44.479444
-    longitude: 33.65
-  link: https://wikimapia.org/35949371
-  name: Гуруш
-  provider: wikimapia.org
-  type: ridge
-- coordinates:
-    latitude: 44.503611
-    longitude: 33.658333
-  link: https://wikimapia.org/35989031
-  name: Каядес
-  provider: wikimapia.org
-  type: ridge
-- coordinates:
-    latitude: 44.492222
-    longitude: 33.613056
-  link: https://wikimapia.org/22922001
-  name: Спилия
-  provider: wikimapia.org
-  type: peak
-- coordinates:
-    latitude: 44.501111
-    longitude: 33.605278
-  link: https://wikimapia.org/34327865
-  name: Кефало-Вриси
-  provider: wikimapia.org
-  type: peak
-- coordinates:
-    latitude: 44.495833
-    longitude: 33.605278
-  link: https://wikimapia.org/35987847
-  name: Кефало-Вриси
-  provider: wikimapia.org
-  type: ravine
+«Байдарский» перевал:
+  - - openstreetmap.org/node/417212162
+    - wikimapia.org/141728
+«Форосский» парк:
+  - - openstreetmap.org/way/251373544
+    - wikimapia.org/18763327
+Возвышенность «Донгуз-Сырт»:
+  - - wikimapia.org/35975064
+Гора «Аджер-Канат»:
+  - - openstreetmap.org/node/2634463693
+    - wikimapia.org/22531914
+Гора «Аскети»:
+  - - openstreetmap.org/node/3083519516
+    - wikimapia.org/22921991
+Гора «Балчик-Кая»:
+  - - openstreetmap.org/node/3114654959
+    - wikimapia.org/23925528
+    - wikimapia.org/35873351
+Гора «Башня Восточная»:
+  - - openstreetmap.org/node/5875638116
+Гора «Башня Западная»:
+  - - openstreetmap.org/node/5875635247
+Гора «Башня Центральная»:
+  - - openstreetmap.org/node/5875636617
+Гора «Беш-Текне»:
+  - - openstreetmap.org/node/5912602017
+    - wikimapia.org/35979936
+Гора «Измолос»:
+  - - openstreetmap.org/node/3565253604
+Гора «Исар-Кая»:
+  - - openstreetmap.org/node/2634194181
+    - wikimapia.org/35873429
+Гора «Каланых-Кая»:
+  - - openstreetmap.org/node/2634463694
+    - wikimapia.org/6415248
+Гора «Кандыка»:
+  - - wikimapia.org/35975034
+Гора «Кастропольская»:
+  - - openstreetmap.org/node/2367784692
+    - wikimapia.org/34260652
+Гора «Кефало-Вриси»:
+  - - wikimapia.org/34327865
+Гора «Кильсе-Бурун»:
+  - - openstreetmap.org/node/2187382685
+    - wikimapia.org/5130828
+Гора «Кокия-Кая»:
+  - - openstreetmap.org/node/1020089193
+    - wikimapia.org/460186
+Гора «Крепостная»:
+  - - openstreetmap.org/node/4463962611
+    - wikimapia.org/12352742
+Гора «Куба-Кая»:
+  - - openstreetmap.org/node/2367784695
+    - wikimapia.org/23925421
+Гора «Курт-Кая»:
+  - - openstreetmap.org/node/3198071695
+    - wikimapia.org/26019793
+Гора «Курюч-Бурун»:
+  - - wikimapia.org/22666557
+Гора «Куш-Кая»:
+  - - openstreetmap.org/node/1404438104
+    - wikimapia.org/4008022
+Гора «Кызыл-Кая»:
+  - - openstreetmap.org/node/2417381207
+    - wikimapia.org/26376427
+Гора «Малый Кильсе-Бурун»:
+  - - openstreetmap.org/node/5875626329
+    - wikimapia.org/35971563
+Гора «Мердвен-Кая»:
+  - - openstreetmap.org/node/2634194182
+    - wikimapia.org/22666596
+Гора «Мердвен-Каясы»:
+  - - openstreetmap.org/node/2367784699
+    - wikimapia.org/17886709
+Гора «Морчека»:
+  - - openstreetmap.org/node/2187361855
+    - wikimapia.org/28078274
+Гора «Мшатка-Каясы»:
+  - - openstreetmap.org/node/2367784702
+    - wikimapia.org/19537397
+Гора «Пиляки»:
+  - - openstreetmap.org/node/3565253603
+    - wikimapia.org/23642295
+Гора «Самналых-Бурун»:
+  - - openstreetmap.org/node/3909291899
+    - wikimapia.org/6415281
+Гора «Сахарка»:
+  - - openstreetmap.org/node/3198088970
+    - wikimapia.org/23112658
+Гора «Спилия»:
+  - - wikimapia.org/22922001
+Гора «Спирады»:
+  - - openstreetmap.org/node/2187353623
+    - wikimapia.org/17907766
+Гора «Тарпан-Баир»:
+  - - openstreetmap.org/node/3102875801
+    - wikimapia.org/17885722
+Гора «Тез-Баир»:
+  - - openstreetmap.org/node/3198088971
+    - wikimapia.org/17907828
+Гора «Треугольник»:
+  - - openstreetmap.org/node/4775015904
+    - wikimapia.org/22666472
+    - wikimapia.org/23774402
+Гора «Форос»:
+  - - openstreetmap.org/node/5112897723
+    - wikimapia.org/17886384
+Гора «Форосский Кант»:
+  - - openstreetmap.org/node/2367784687
+    - wikimapia.org/27268853
+Гора «Хуба-Орта-Хая»:
+  - - wikimapia.org/22666609
+Гора «Хыр»:
+  - - openstreetmap.org/node/3565253605
+    - wikimapia.org/17907728
+Гора «Челеби-Яурн-Бели»:
+  - - openstreetmap.org/node/1132776362
+    - wikimapia.org/6415344
+Гора «Чуваш-Кой»:
+  - - openstreetmap.org/node/3102875803
+    - wikimapia.org/14807419
+Гора «Шабурла-Кая»:
+  - - openstreetmap.org/node/5401286261
+    - wikimapia.org/
+Овраг «Бала-Дере»:
+  - - wikimapia.org/35979282
+Овраг «Донгуз-Дере»:
+  - - wikimapia.org/35975051
+Овраг «Кефало-Вриси»:
+  - - wikimapia.org/35987847
+Овраг «Фундуклы-Дере»:
+  - - wikimapia.org/35979273
+Перевал «Замок Восточный»:
+  - - wikimapia.org/35971554
+Перевал «Замок Западный»:
+  - - openstreetmap.org/node/2103975496
+    - wikimapia.org/35971540
+Перевал «Кикинеиз Западный»:
+  - - openstreetmap.org/node/5938291393
+Перевал «Ласпи»:
+  - - openstreetmap.org/node/1774957162
+    - wikimapia.org/11898371
+Перевал «Миэссис-Богаз»:
+  - - openstreetmap.org/node/790069568
+Перевал «Мшатка Восточный»:
+  - - openstreetmap.org/node/5928309228
+    - wikimapia.org/35971528
+Перевал «Мшатка Западный»:
+  - - wikimapia.org/35971413
+Перевал «Пелит-Топчан»:
+  - - openstreetmap.org/node/5938291424
+    - wikimapia.org/35979564
+Перевал «Собачья Лестница»:
+  - - openstreetmap.org/node/5891749449
+    - wikimapia.org/10999552
+Перевал «Уарч Восточный»:
+  - - wikimapia.org/26287214
+Перевал «Шабурла»:
+  - - openstreetmap.org/node/5923278869
+    - wikimapia.org/35529625
+Перевал «Шайтан–Мердвен»:
+  - - openstreetmap.org/node/847044584
+    - wikimapia.org/1743254
+Перевал «Эски-Богаз»:
+  - - openstreetmap.org/node/802033282
+    - wikimapia.org/23548751
+Поляна «Бузика(-Чаир)»:
+  - - wikimapia.org/23026208
+Скала «Балчик-Кая»:
+  - - wikimapia.org/26286963
+Скала «Биюк-Исар»:
+  - - openstreetmap.org/node/2367836799
+Скала «Замок»:
+  - - openstreetmap.org/node/5875623334
+    - wikimapia.org/35878026
+Скала «Малый Парус»:
+  - - openstreetmap.org/node/3333717905
+    - wikimapia.org/4028152
+Скала «Парус»:
+  - - openstreetmap.org/node/3284072977
+    - wikimapia.org/3673487
+Скала «Селля-Кая»:
+  - - wikimapia.org/22821006
+Скала «Улле-Кая»:
+  - - wikimapia.org/22821040
+Урочище «Аязьма»:
+  - - openstreetmap.org/node/1127675851
+    - wikimapia.org/23492432
+Урочище «Затерянный Мир»:
+  - - openstreetmap.org/node/1207853240
+    - wikimapia.org/7987132
+Хребет «Биллер»:
+  - - wikimapia.org/25468203
+Хребет «Гуруш»:
+  - - wikimapia.org/35949371
+Хребет «Догуз-Орун»:
+  - - openstreetmap.org/way/258016886
+    - wikimapia.org/25018153
+Хребет «Каядес»:
+  - - wikimapia.org/35989031
+Хребет «Куняшлы-Баир»:
+  - - wikimapia.org/24006698
+Хребет «Кучук-Текне-Бель»:
+  - - openstreetmap.org/node/4724380843
+    - wikimapia.org/25018402
+Хребет «Тарпан-Баир»:
+  - - openstreetmap.org/way/305636552
+    - wikimapia.org/24006670
+Хребет «Фороз-Богаз»:
+  - - openstreetmap.org/way/305618019
+Хребет «Хырлар»:
+  - - wikimapia.org/20926218
+Овраг «Казан-Дере»:
+  - - openstreetmap.org/node/5634706426
+    - wikimapia.org/22582765

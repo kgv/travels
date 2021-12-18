@@ -1,12 +1,15 @@
-- link: https://openstreetmap.org/relation/3018346
-  name: Кореиз
-  provider: openstreetmap.org
-  type: town
-- link: https://openstreetmap.org/way/30712251
-  name: Кизиловое
-  provider: openstreetmap.org
-  type: village
-- link: https://openstreetmap.org/relation/3832516
-  name: Балаклава
-  provider: openstreetmap.org
-  type: town
+Населенный пункт «Кизиловое»:
+  - - openstreetmap.org/way/30712251
+    - wikimapia.org/3000646
+Населенный пункт «Кореиз»:
+  - - openstreetmap.org/relation/3018346
+    - wikimapia.org/64341
+Населенный пункт «Родниковое»:
+  - - openstreetmap.org/way/30713308
+    - wikimapia.org/6383470
+Населенный пункт «Форос»:
+  - - openstreetmap.org/relation/3598379
+    - wikimapia.org/16162191
+Населенный пункт «Оползневое»:
+  - - openstreetmap.org/way/30712214
+    - wikimapia.org/6415415

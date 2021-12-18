@@ -1,6 +1,6 @@
 ---
 author_profile: true
-entries_layout: grid
+entries_layout: list
 layout: routes
 permalink: /routes
 title: Routes

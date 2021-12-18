@@ -1,14 +1,23 @@
-- coordinates:
-    latitude: 44.4707836
-    longitude: 33.6439422
-  link: https://openstreetmap.org/node/2208168698
-  name: Аязьма-Чокрак
-  provider: openstreetmap.org
-  type: spring
-- coordinates:
-    latitude: 44.495233
-    longitude: 33.59414
-  link: https://openstreetmap.org/node/3221942279
-  name: Балаклавская Бухта
-  provider: openstreetmap.org
-  type: bay
+«Балаклавская» бухта:
+  - - openstreetmap.org/node/3221942279
+    - wikimapia.org/12353837
+Водопад «Мердвен-Учан-Су»:
+  - - wikimapia.org/22326877
+Два озера:
+  - - openstreetmap.org/way/205094244
+    - openstreetmap.org/way/205094245
+    - wikimapia.org/20434524
+    - wikimapia.org/20434537
+Озёра «Чуваш-Голь»:
+  - - openstreetmap.org/way/313778294
+    - openstreetmap.org/way/313778293
+    - wikimapia.org/23592289
+    - wikimapia.org/23592265
+Река «Узунджа»:
+  - - openstreetmap.org/way/350562715
+Родник «Аязьма-Чокрак»:
+  - - openstreetmap.org/node/2208168698
+    - wikimapia.org/9489605
+Третье озеро:
+  - - openstreetmap.org/way/205252573
+    - wikimapia.org/20434553

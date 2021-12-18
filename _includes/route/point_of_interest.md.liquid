@@ -1,0 +1,9 @@
+{%- assign id = site.data.strings[site.locale][include.type] | capitalize -%}
+{%- if include.name %}
+    {% capture id %}{{ id }} "{{ include.name }}"{% endcapture %}
+{% endif -%}
+{%- assign name = id -%}
+{%- if include.coordinates %}
+    {% capture id %}{{ id }}: {{ include.coordinates }}{% endcapture %}
+{% endif -%}
+- [{{ name }}][{{ id }}]{: target="_blank" title="{{ include.coordinates }}" }

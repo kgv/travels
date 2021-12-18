@@ -1,6 +1,5 @@
 ## {{ site.data.strings[site.locale].points_of_interest | capitalize }}
 
-{% for tag in page.tags %}
-{% assign parts = tag | split: " -- " %}
-- [{{ parts.first }} {% if parts[2] %}"{{ parts[1] }}"{% else %}{{ parts[1] }}{% endif %}][{{ tag }}]{: target="_blank" title="{{ parts.last }}" }
+{% for point_of_interest in page.points_of_interest %}
+- {{ point_of_interest.type }} "{{ point_of_interest.name }}" {% for link in point_of_interest.links %} [[{{ forloop.index }}]]({{ link }}){: target="_blank" }{% endfor %}
 {% endfor %}

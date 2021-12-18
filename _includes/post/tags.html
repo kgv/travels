@@ -7,14 +7,15 @@
     {% endcase %}
 
     {% if site.tag_archive.path %}
-        {% assign tags_sorted = page.tags | sort_natural %}
+        {% assign sorted_tags = page.tags | sort_natural %}
 
         <p class="page__taxonomy">
             <i aria-hidden="true" class="fas fa-fw fa-tags"></i>
             <strong>{{ site.data.strings[site.locale].tags | capitalize | append: ':' }}</strong>
             <span itemprop="keywords">
-                {% for _tag in tags_sorted %}
-                    <a href="{{ _tag | slugify | prepend: path_type | prepend: site.tag_archive.path | relative_url }}" class="page__taxonomy-item p-category" rel="tag">{{ _tag }}</a>
+                {% for _tag in sorted_tags %}
+                    {% assign parts = tag | split: " -- " %}
+                    <a href="{{ _tag | slugify | prepend: path_type | prepend: site.tag_archive.path | relative_url }}" class="page__taxonomy-item p-category" rel="tag" title="{{ parts.last }}">{{ _tag }}</a>
                     {% unless forloop.last %}
                         <span class="sep">,</span>
                     {% endunless %}

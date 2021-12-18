@@ -1,9 +1,8 @@
 {%- assign id = site.data.strings[site.locale][include.toponym.type] | capitalize -%}
 {%- if include.toponym.name %}
-    {% capture id %}{{ id }} "{{ include.toponym.name }}"{% endcapture %}
+    {% capture id %}{{ id }} -- {{ include.toponym.name }}{% endcapture %}
 {% endif -%}
-{%- assign id = id | append: ':' -%}
 {%- if include.toponym.coordinates %}
-    {% capture id %}{{ id }} {{ include.toponym.coordinates.latitude }}, {{ include.toponym.coordinates.longitude }}{% endcapture %}
+    {% capture id %}{{ id }} -- {{ include.toponym.coordinates.latitude }}, {{ include.toponym.coordinates.longitude }}{% endcapture %}
 {% endif -%}
 [{{ id }}]: {{ include.toponym.link }}

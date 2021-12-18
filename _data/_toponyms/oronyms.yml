@@ -58,7 +58,7 @@
     latitude: 44.456808
     longitude: 34.068385
   link: https://openstreetmap.org/node/4144596879
-  name: Воронья скала
+  name: Воронья Скала
   provider: openstreetmap.org
   type: peak
 - coordinates:
@@ -71,7 +71,7 @@
     latitude: 44.429696
     longitude: 33.649288
   link: https://openstreetmap.org/node/1207853240
-  name: Затерянный мир
+  name: Затерянный Мир
   provider: openstreetmap.org
   type: locality
 - coordinates:

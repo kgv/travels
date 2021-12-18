@@ -132,5 +132,6 @@ ru: &RU
   locality: урочище
   spring: родник
   ravine: овраг
+  bay: залив
 ru-RU:
   <<: *RU

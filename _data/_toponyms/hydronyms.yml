@@ -5,3 +5,10 @@
   name: Аязьма-Чокрак
   provider: openstreetmap.org
   type: spring
+- coordinates:
+    latitude: 44.495233
+    longitude: 33.59414
+  link: https://openstreetmap.org/node/3221942279
+  name: Балаклавская Бухта
+  provider: openstreetmap.org
+  type: bay

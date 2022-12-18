@@ -1,15 +1,22 @@
 ---
 layout: archive
 ---
-
-{{ content }}
-
-{% include posts/index.html %}
-
-{% assign entries_layout = page.entries_layout | default: "list" %}
 {% assign years = site.posts | where_exp: "item", "item.hidden != true" | group_by_exp: 'post', 'post.date | date: "%Y"' %}
+{% assign entries_layout = page.entries_layout | default: "list" %}
+
+<ul class="taxonomy__index">
+    {% for year in years %}
+    <li>
+        <a href="#{{ year.name }}">
+            <strong>{{ year.name }}</strong>
+            <span class="taxonomy__count">{{ year.items | size }}</span>
+        </a>
+    </li>
+    {% endfor %}
+</ul>
+
 {% for year in years %}
-    <section id="{{ year.name }}" class="taxonomy__section">
+    <section class="taxonomy__section" id="{{ year.name }}">
         <h2 class="archive__subtitle">{{ year.name }}</h2>
         <div class="entries-{{ entries_layout }}">
             {% for post in year.items %}

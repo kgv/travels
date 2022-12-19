@@ -6,7 +6,7 @@
         <h2 class="page__related-title">{{ related_routes }}</h2>
         <div class="grid__wrapper">
             {% for post in site.related_posts limit:4 %}
-                {% include posts/post.html type="grid" %}
+                {% include posts/post.html layout="grid" %}
             {% endfor %}
         </div>
     </div>
@@ -19,7 +19,7 @@
                 {% if post.id == page.id %}
                     {% continue %}
                 {% endif %}
-                {% include posts/post.html type="grid" %}
+                {% include posts/post.html layout="grid" %}
             {% endfor %}
         </div>
     </div>

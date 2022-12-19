@@ -1,10 +1,8 @@
-<div class="{{ include.type | default: 'list' }}__item">
+<div class="{{ include.layout | default: 'list' }}__item">
     <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
         {% include posts/header.html %}
 
-        {% if include.type == "grid" %}
-            {% include posts/thumbnail.html id=post.map %}
-        {% endif %}
+        {% include posts/thumbnail.html id=post.map %}
 
         {% include posts/meta.html %}
 

@@ -1,20 +1,18 @@
+{% assign next = site.data.strings[site.locale].next | capitalize %}
+{% assign previous = site.data.strings[site.locale].previous | capitalize %}
+
 {% if page.previous or page.next %}
 <nav class="pagination">
-    {% assign next = site.data.strings[site.locale].next | capitalize %}
-    {% assign previous = site.data.strings[site.locale].previous | capitalize %}
-
     {% if page.previous %}
-    <a href="{{ page.previous.url | relative_url }}" class="pagination--pager"
-        title="{{ page.previous.title | markdownify | strip_html }}">{{ previous }}</a>
+        <a href="{{ page.previous.url | relative_url }}" class="pagination--pager" title="{{ page.previous.title | markdownify | strip_html }}">{{ previous }}</a>
     {% else %}
-    <a class="pagination--pager disabled" href="#">{{ previous }}</a>
+        <a class="pagination--pager disabled" href="#">{{ previous }}</a>
     {% endif %}
 
     {% if page.next %}
-    <a href="{{ page.next.url | relative_url }}" class="pagination--pager"
-        title="{{ page.next.title | markdownify | strip_html }}">{{ next }}</a>
+        <a href="{{ page.next.url | relative_url }}" class="pagination--pager" title="{{ page.next.title | markdownify | strip_html }}">{{ next }}</a>
     {% else %}
-    <a class="pagination--pager disabled" href="#">{{ next }}</a>
+        <a class="pagination--pager disabled" href="#">{{ next }}</a>
     {% endif %}
 </nav>
 {% endif %}

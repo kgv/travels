@@ -11,8 +11,8 @@ title_separator: "-"
 subtitle: "Hiking and traveling around the world"
 name: &name "T" # &name is a YAML anchor which can be *referenced later
 description: &description "A site about all my travels around the world."
-url: https://kgv.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl: "/site" # the subpath of your site, e.g. "/blog"
+url: https://kgv.github.io # the base hostname & protocol for your site
+baseurl: "/site" # the subpath of your site
 repository: "kgv/site"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"

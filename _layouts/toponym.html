@@ -34,13 +34,12 @@ layout: default
                     {% include post/toc.html %}
                 {% endif %}
 
-                {%- for post in page.temp -%}
-                    {% capture src %}/assets/images/map/{{ page.temp }}{% endcapture %}
+                {%- for part in page.temp -%}
+                    {% capture src %}{{ site.baseurl }}/assets/images/map/{{ part }}.jpg{% endcapture %}
                     <div class="archive__item-teaser">
                         <img alt="" src="{{ src }}">
                     </div>
                 {%- endfor -%}
-
 
                 {{ content }}
 

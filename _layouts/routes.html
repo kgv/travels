@@ -5,7 +5,7 @@ layout: archive
 {% assign years = site.posts | where_exp: "item", "item.hidden != true" | group_by_exp: 'post', 'post.date | date: "%Y"' %}
 {% assign entries_layout = page.entries_layout | default: "list" %}
 
-{% comment %}<!-- index -->{% endcomment %}
+{% comment %}Index{% endcomment %}
 <ul class="taxonomy__index">
     {% for year in years %}
         <li>
@@ -17,7 +17,7 @@ layout: archive
     {% endfor %}
 </ul>
 
-{% comment %}<!-- content -->{% endcomment %}
+{% comment %}Content{% endcomment %}
 {% for year in years %}
     <section class="taxonomy__section" id="{{ year.name }}">
         <h2 class="archive__subtitle">{{ year.name }}</h2>

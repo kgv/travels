@@ -612,3 +612,9 @@ $4
 {% include links/toponyms/terms.md %}
 {% endcapture %}
 {% endif %}
+
+{{ content | remove: "<p>" | remove: "</p>"
+    | replace: "[В]", "[В](# 'Восток'){:target='_blank'}"
+    | replace: "[З]", "[З](# 'Запад'){:target='_blank'}"
+    | replace: "[С]", "[С](# 'Север'){:target='_blank'}"
+    | replace: "[Ю]", "[Ю](# 'Юг'){:target='_blank'}" }}

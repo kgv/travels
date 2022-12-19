@@ -1,8 +1,8 @@
-<div class="{{ include.layout | default: 'list' }}__item">
+<div class="{{ include.layout | default: 'list' }}__item grid__wrapper">
     <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
         {% include posts/header.html %}
 
-        {% include posts/thumbnail.html id=post.map %}
+        {% include google/map/thumbnail.html.liquid id=post.map %}
 
         {% include posts/meta.html %}
 

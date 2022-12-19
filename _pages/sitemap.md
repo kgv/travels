@@ -21,8 +21,7 @@ well.
     {% include archive-single.html %}
 {% endfor %}
 
-{% capture written_label %}'None'
-{% endcapture %}
+{% capture written_label %}"None"{% endcapture %}
 
 {% for collection in site.collections %}
     {% unless collection.output == false or collection.label == "posts" %}

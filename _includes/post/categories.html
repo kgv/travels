@@ -11,7 +11,7 @@
 
         <p class="page__taxonomy">
             <i aria-hidden="true" class="fas fa-fw fa-folder-open"></i>
-            <strong>{{ site.data.strings[site.locale].categories | capitalize | append: ':' }}</strong>
+            <strong>{{ site.data.strings[site.locale].categories | capitalize | append: ":" }}</strong>
             <span itemprop="keywords">
                 {% for category_word in categories_sorted %}
                     <a href="{{ category_word | slugify | prepend: path_type | prepend: site.category_archive.path | relative_url }}" class="page__taxonomy-item p-category" rel="tag">{{ category_word }}</a>

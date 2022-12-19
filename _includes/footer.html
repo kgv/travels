@@ -14,7 +14,7 @@
 
         {% unless site.atom_feed.hide %}
             <li>
-                <a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}" title="{{ site.data.ui-text[site.locale].feed_label | default: 'Feed' }}">
+                <a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}" title="{{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}">
                     <i aria-hidden="true" class="fas fa-4x fa-fw fa-rss-square"></i>
                 </a>
             </li>
@@ -24,6 +24,6 @@
 
 <div class="page__footer-copyright">
     &copy;
-    {{ site.time | date: '%Y' }}
+    {{ site.time | date: "%Y" }}
     {{ site.title }}.
 </div>

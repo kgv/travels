@@ -1,4 +1,4 @@
-{% for map in page.maps %}
-{% capture _path %}/assets/images/map/{{ map }}.jpg{% endcapture %}
-{% include figure.html alt = map path = _path %}
+{% for quadrant in page.quadrants %}
+{% capture path %}/assets/images/map/{{ quadrant }}.jpg{% endcapture %}
+{% include figure.html text = quadrant path = path %}
 {% endfor %}

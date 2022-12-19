@@ -1,8 +1,8 @@
 <figure class="{{ include.class }}">
-    <img alt="{% if include.alt %}{{ include.alt }}{% endif %}" src="{{ include.path | relative_url }}">
+    <img alt="{{ include.text }}" src="{{ include.path | relative_url }}" title="{{ include.text }}">
     {%- if include.caption -%}
-        <figcaption>
-            {{ include.caption | markdownify | remove: "<p>" | remove: "</p>" }}
-        </figcaption>
+    <figcaption>
+        {{ include.caption | markdownify | remove: "<p>" | remove: "</p>" }}
+    </figcaption>
     {%- endif -%}
 </figure>

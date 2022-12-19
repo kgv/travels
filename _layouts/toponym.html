@@ -30,23 +30,20 @@ layout: default
             </header>
 
             <section class="page__content" itemprop="text">
-                {% if page.toc %}
+                {% if page.toc -%}
                     {% include post/toc.html %}
-                {% endif %}
+                {%- endif %}
 
-                <div class="page__related">
-                    {% for part in page.temp %}
-                        {% capture src %}{{ site.baseurl }}/assets/images/map/{{ part }}.jpg{% endcapture %}
-                        <img alt="{{ part }}" src="{{ src }}">
-                    {% endfor %}
-                </div>
+
+
+                GG
 
                 {{ content }}
 
                 {% if page.link %}
-                    <div>
-                        <a href="{{ page.link }}" class="btn btn--primary">{{ site.data.strings[site.locale].direct_link }}</a>
-                    </div>
+                <div>
+                    <a href="{{ page.link }}" class="btn btn--primary">{{ site.data.strings[site.locale].direct_link }}</a>
+                </div>
                 {% endif %}
             </section>
 

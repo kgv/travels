@@ -2,7 +2,7 @@
 title: Тырке I
 tags: [гидроним]
 synonyms:
-temp: [Г9]
+quadrants: [Г9]
 ---
 
 Верхнее теч. р. Бурульча.

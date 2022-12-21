@@ -1,5 +1,5 @@
 ---
-title: ⦗[Караул]⒯ II⦘
+title: [❮Караул❯ II]
 tags: [ороним]
 quadrants: [Г13]
 ---

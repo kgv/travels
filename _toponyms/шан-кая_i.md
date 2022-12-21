@@ -1,5 +1,5 @@
 ---
-title: ⦗[Шан]⒯ I⦘
+title: [❮Шан❯ I]
 tags: [ороним]
 quadrants: [З7]
 ---

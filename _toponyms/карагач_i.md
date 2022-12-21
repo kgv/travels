@@ -1,5 +1,5 @@
 ---
-title: ⦗Карагач I⦘
+title: [Карагач I]
 tags: [гидроним]
 quadrants: [В13]
 ---

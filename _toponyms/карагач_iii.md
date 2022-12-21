@@ -1,5 +1,5 @@
 ---
-title: ⦗Карагач III⦘
+title: [Карагач III]
 tags: [ороним]
 quadrants: [В15]
 ---

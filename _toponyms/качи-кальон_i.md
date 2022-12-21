@@ -1,5 +1,5 @@
 ---
-title: ⦗Качи-Кальон I⦘
+title: [Качи-Кальон I]
 tags:
 quadrants: [Е5]
 ---

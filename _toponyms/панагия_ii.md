@@ -1,5 +1,5 @@
 ---
-title: ⦗Панагия II⦘
+title: [Панагия II]
 tags: [гидроним]
 quadrants: [Г11]
 ---

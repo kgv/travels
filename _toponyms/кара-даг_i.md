@@ -1,5 +1,5 @@
 ---
-title: ⦗[Кара]⒯ I⦘
+title: [❮Кара❯ I]
 tags: [ороним]
 quadrants: [И4]
 ---

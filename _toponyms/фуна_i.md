@@ -1,5 +1,5 @@
 ---
-title: ⦗Фуна I⦘
+title: [Фуна I]
 tags:
 ---
 

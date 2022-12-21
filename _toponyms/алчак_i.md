@@ -1,5 +1,5 @@
 ---
-title: ⦗Алчак I⦘
+title: [Алчак I]
 tags: [ороним]
 quadrants: [Г13]
 ---

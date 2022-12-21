@@ -1,5 +1,5 @@
 ---
-title: ⦗Тырке I⦘
+title: [Тырке I]
 tags: [гидроним]
 quadrants: [Г9]
 ---

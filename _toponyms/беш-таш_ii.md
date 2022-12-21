@@ -1,5 +1,5 @@
 ---
-title: ⦗[Беш](terms/беш)-[Таш](terms/таш) II⦘
+title: [[Беш](terms/беш)-[Таш](terms/таш) II]
 tags: [ороним]
 quadrants: [И5]
 ---

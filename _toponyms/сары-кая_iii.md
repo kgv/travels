@@ -1,5 +1,5 @@
 ---
-title: ⦗[Сары]⒯ III⦘
+title: [❮Сары❯ III]
 tags: [ороним]
 quadrants: [В13]
 ---

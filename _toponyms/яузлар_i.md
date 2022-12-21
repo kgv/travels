@@ -1,5 +1,5 @@
 ---
-title: ⦗Яузлар I⦘
+title: [Яузлар I]
 tags: [гидроним]
 quadrants: [З6]
 ---

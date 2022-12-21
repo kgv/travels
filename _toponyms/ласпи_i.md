@@ -1,5 +1,5 @@
 ---
-title: ⦗Ласпи I⦘
+title: [Ласпи I]
 tags: [ороним]
 quadrants: [И3]
 ---

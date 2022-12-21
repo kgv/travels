@@ -1,5 +1,5 @@
 ---
-title: ⦗Индол I⦘
+title: [Индол I]
 tags: [гидроним]
 quadrants: [В12, А13]
 ---

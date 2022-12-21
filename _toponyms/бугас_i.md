@@ -1,5 +1,5 @@
 ---
-title: ⦗[Бугас]⒯ I⦘
+title: [❮Бугас❯ I]
 tags: [ороним]
 quadrants: [Г14]
 ---

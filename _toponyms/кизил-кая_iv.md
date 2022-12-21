@@ -1,5 +1,5 @@
 ---
-title: ⦗[Кизил]⒯ IV⦘
+title: [❮Кизил❯ IV]
 tags: [ороним]
 quadrants: [Г11]
 ---

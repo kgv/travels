@@ -1,5 +1,5 @@
 ---
-title: ⦗Бал-[Кая](terms/кая) I⦘
+title: [Бал-[Кая](terms/кая) I]
 tags: [ороним]
 quadrants: [В15]
 ---

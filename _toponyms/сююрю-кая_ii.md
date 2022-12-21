@@ -1,5 +1,5 @@
 ---
-title: ⦗[Сююрю]⒯ II⦘
+title: [❮Сююрю❯ II]
 tags: [ороним]
 quadrants: [З5]
 ---

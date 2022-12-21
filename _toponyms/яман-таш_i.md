@@ -1,5 +1,5 @@
 ---
-title: ⦗[Яман]⒯ I⦘
+title: [❮Яман❯ I]
 tags: [ороним]
 quadrants: [В8]
 ---

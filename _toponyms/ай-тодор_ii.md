@@ -1,5 +1,5 @@
 ---
-title: ⦗[Ай]⒯-Тодор II⦘
+title: [❮Ай❯-Тодор II]
 tags: [ороним]
 quadrants: [Ж4]
 ---

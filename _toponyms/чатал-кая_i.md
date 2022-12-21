@@ -1,5 +1,5 @@
 ---
-title: ⦗[Чатал]⒯ I⦘
+title: [❮Чатал❯ I]
 tags: [ороним]
 quadrants: [В13]
 ---

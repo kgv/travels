@@ -1,5 +1,5 @@
 ---
-title: ⦗[Кызыл]⒯ I⦘
+title: [❮Кызыл❯ I]
 tags: [ороним]
 quadrants: [И4]
 ---

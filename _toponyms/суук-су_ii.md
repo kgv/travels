@@ -1,5 +1,5 @@
 ---
-title: ⦗[Суук]⒯ II⦘
+title: [❮Суук❯ II]
 tags: [гидроним]
 quadrants: [Г10]
 ---

@@ -228,6 +228,7 @@ defaults:
     values:
       author_profile: true
       comments: true
+      classes: wide
       layout: post
       read_time: true
       related: true

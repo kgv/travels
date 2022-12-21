@@ -1,5 +1,2 @@
-- names: [«Карадагский» лес]
-  links: [wikimapia.org/23782866]
-
-- names: [«Сусанинский» лес]
-  links: [wikimapia.org/15544120]
+- { names: [«Сусанинский» лес], links: [wikimapia.org/15544120] }
+- { names: [«Карадагский» лес], links: [wikimapia.org/23782866] }

@@ -4,22 +4,18 @@ layout: post
 
 {% include google/map/embed.html.liquid %}
 
-{% for tag in page.tags %}
-{% comment %}Dromonyms{% endcomment %}
-{% comment %}Drymonyms{% endcomment %}
+{{ content }}
+
 <ul>
-    {% assign drymonyms = site.data._toponyms.drymonyms_g | where_exp:"drymonym", "drymonym.names contains tyg" %}
-    {% for drymonym in drymonyms %}
-    <li>
-        {% assign title = drymonym.names | join ", " %}
-        {% capture url %}/toponyms/drymonyms/{{ title }}{% endcapture %}
-        <a href="{{ url | relative_url }}", title="{{ title }}">{{ tag }}</a>
-        {% for link in drymonym.links %}
-        <a href="https://{{ link }}", target="_blank", title="{{ link | split: '/'' | first }}"><sup>{{ forloop.index }}</sup></a>
-        {% endfor %}
-    </li>
+    {% for tag in page.tags %}
+        {%- for toponym in site.toponyms -%}
+            {% if toponym.title contains tag %}<a href="{{ toponym.url | relative_url }}", title="{{ toponym.title | join ', ' }}">{{ tag }}</a>{% endif %}
+        {%- endfor %}
+
+        {% include route/toponym.html.liquid toponyms=site.data._toponyms.dromonyms toponym=tag %}
+        {% include route/toponym.html.liquid toponyms=site.data._toponyms.drymonyms toponym=tag %}
+        {% include route/toponym.html.liquid toponyms=site.data._toponyms.hydronyms toponym=tag %}
+        {% include route/toponym.html.liquid toponyms=site.data._toponyms.oikonyms toponym=tag %}
+        {% include route/toponym.html.liquid toponyms=site.data._toponyms.oronyms toponym=tag %}
     {% endfor %}
 </ul>
-{% endfor %}
-
-{{ content }}

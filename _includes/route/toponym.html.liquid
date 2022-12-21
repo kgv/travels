@@ -1,0 +1,11 @@
+{% assign toponyms = include.toponyms | where_exp:"toponym", "toponym.names contains include.toponym" %}
+{% for toponym in toponyms %}
+<li>
+    {% assign title = toponym.names | join ", " %}
+    {% capture url %}/toponyms/{{ include.toponym }}/{{ title }}{% endcapture %}
+    <a href="{{ url | relative_url }}", title="{{ title }}">{{ include.toponym }}</a>
+    {% for link in toponym.links %}
+    <a href="https://{{ link }}", target="_blank", title="{{ link | split: '/'' | first }}"><sup>{{ forloop.index }}</sup></a>
+    {% endfor %}
+</li>
+{% endfor %}

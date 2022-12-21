@@ -1,5 +1,5 @@
 ---
-title: ⒜Ласпи II⒵
+title: ⦗Ласпи II⦘
 tags: [ороним]
 quadrants: [И4]
 ---

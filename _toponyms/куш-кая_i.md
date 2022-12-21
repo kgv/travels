@@ -1,5 +1,5 @@
 ---
-title: ⒜[Куш]⒯ I⒵
+title: ⦗[Куш]⒯ I⦘
 tags: [ороним]
 quadrants: [В11]
 ---

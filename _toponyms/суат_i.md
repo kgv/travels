@@ -1,5 +1,5 @@
 ---
-title: ⒜Суат I⒵
+title: ⦗Суат I⦘
 tags: [гидроним]
 quadrants: [Д8]
 ---

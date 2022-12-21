@@ -1,5 +1,5 @@
 ---
-title: ⒜[Кая]⒯ III⒵
+title: ⦗[Кая]⒯ III⦘
 tags: [ороним]
 quadrants: [Ж4]
 ---

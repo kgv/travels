@@ -1,5 +1,5 @@
 ---
-title: ⒜[Орта]⒯ I⒵
+title: ⦗[Орта]⒯ I⦘
 tags: [ороним]
 quadrants: [В12]
 ---

@@ -1,5 +1,5 @@
 ---
-title: ⒜[Кильсе]⒯ II⒵
+title: ⦗[Кильсе]⒯ II⦘
 tags: [ороним]
 quadrants: [Д4]
 ---

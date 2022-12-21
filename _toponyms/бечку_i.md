@@ -1,5 +1,5 @@
 ---
-title: ⒜Бечку I⒵
+title: ⦗Бечку I⦘
 tags: [ороним]
 quadrants: [З4]
 ---

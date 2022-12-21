@@ -1,5 +1,5 @@
 ---
-title: ⒜[Кизил]⒯ I⒵
+title: ⦗[Кизил]⒯ I⦘
 tags: [ороним]
 quadrants: [З7]
 ---

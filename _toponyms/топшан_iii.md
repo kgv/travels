@@ -1,5 +1,5 @@
 ---
-title: ⒜[Топшан]⒯ III⒵
+title: ⦗[Топшан]⒯ III⦘
 tags: [ороним]
 quadrants: [З5]
 ---

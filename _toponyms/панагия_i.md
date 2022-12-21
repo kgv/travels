@@ -1,5 +1,5 @@
 ---
-title: ⒜Панагия I⒵
+title: ⦗Панагия I⦘
 tags: [ороним]
 quadrants: [З7]
 ---

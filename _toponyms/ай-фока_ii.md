@@ -1,5 +1,5 @@
 ---
-title: ⒜[Ай]⒯-Фока II⒵
+title: ⦗[Ай]⒯-Фока II⦘
 tags: [ороним]
 quadrants: [Д9]
 ---

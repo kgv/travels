@@ -1,5 +1,5 @@
 ---
-title: ⒜Тырке II⒵
+title: ⦗Тырке II⦘
 tags: [ороним]
 quadrants: [Г9]
 ---

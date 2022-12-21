@@ -1,5 +1,5 @@
 ---
-title: ⒜Комбопло I⒵
+title: ⦗Комбопло I⦘
 tags: [ороним]
 quadrants: [З6]
 ---

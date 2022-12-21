@@ -1,5 +1,5 @@
 ---
-title: ⒜Суат II⒵
+title: ⦗Суат II⦘
 tags: [гидроним]
 quadrants: [Г9, В9]
 ---

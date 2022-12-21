@@ -1,5 +1,5 @@
 ---
-title: ⒜[Сары]⒯ I⒵
+title: ⦗[Сары]⒯ I⦘
 tags: [ороним]
 quadrants: [З5]
 ---

@@ -1,5 +1,5 @@
 ---
-title: ⒜Лапата I⒵
+title: ⦗Лапата I⦘
 tags: [ороним]
 quadrants: [Г11]
 ---

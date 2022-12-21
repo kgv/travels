@@ -1,5 +1,5 @@
 ---
-title: ⒜Бурма II⒵
+title: ⦗Бурма II⦘
 tags: [ороним]
 quadrants: [Ж8]
 ---

@@ -1,5 +1,5 @@
 ---
-title: ⒜[Беш]⒯ I⒵
+title: ⦗[Беш]⒯ I⦘
 tags: [ороним]
 quadrants: [В15]
 ---

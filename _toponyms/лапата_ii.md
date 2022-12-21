@@ -1,5 +1,5 @@
 ---
-title: ⒜Лапата II⒵
+title: ⦗Лапата II⦘
 tags: [ороним]
 quadrants: [Ж7]
 ---

@@ -1,5 +1,5 @@
 ---
-title: ⒜Айвалык I⒵
+title: ⦗Айвалык I⦘
 tags: [ороним]
 quadrants: [В14]
 ---

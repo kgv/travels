@@ -1,5 +1,5 @@
 ---
-title: ⒜[Кызыл]⒯ II⒵
+title: ⦗[Кызыл]⒯ II⦘
 tags: [ороним]
 quadrants: [Г8]
 ---

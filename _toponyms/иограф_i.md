@@ -1,5 +1,5 @@
 ---
-title: ⒜Иограф I⒵
+title: ⦗Иограф I⦘
 tags: [ороним]
 quadrants: [З6]
 ---

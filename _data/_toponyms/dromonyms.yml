@@ -1,19 +1,20 @@
-«Римская» дорога:
-  - - openstreetmap.org/way/86250308
-    - wikimapia.org/24133787
-Тропа «Керезла»:
-  - - openstreetmap.org/way/205519982
-    - wikimapia.org/22537850
-Тропа «Скобы»:
-  - - openstreetmap.org/way/625879298
-    - wikimapia.org/34730385
-Тропа «Миэссис-Богаз»:
-  - - openstreetmap.org/way/628960003
-    - openstreetmap.org/way/64052170
-    - wikimapia.org/22537700
-Тропа «Тарпан-Баир»:
-  - - openstreetmap.org/way/625749095
-Тропа «Чуваш-Кой»:
-  - - openstreetmap.org/way/625761990
-Тропа «»:
-  - - 
+- names: [«Римская» дорога]
+  links: [openstreetmap.org/way/86250308, wikimapia.org/24133787]
+
+- names: [Тропа «Керезла»]
+  links: [openstreetmap.org/way/205519982, wikimapia.org/22537850]
+
+- names: [Тропа «Скобы»]
+  links: [openstreetmap.org/way/625879298, wikimapia.org/34730385]
+
+- names: [Тропа «Миэссис-Богаз»]
+  links: [openstreetmap.org/way/628960003, openstreetmap.org/way/64052170, wikimapia.org/22537700]
+
+- names: [Тропа «Тарпан-Баир»]
+  links: [openstreetmap.org/way/625749095]
+
+- names: [Тропа «Чуваш-Кой»]
+  links: [openstreetmap.org/way/625761990]
+
+- names: [Тропа «»]
+  links: []

@@ -1,0 +1,25 @@
+---
+layout: post
+---
+
+{% include google/map/embed.html.liquid %}
+
+{% for tag in page.tags %}
+{% comment %}Dromonyms{% endcomment %}
+{% comment %}Drymonyms{% endcomment %}
+<ul>
+    {% assign drymonyms = site.data._toponyms.drymonyms_g | where_exp:"drymonym", "drymonym.names contains tyg" %}
+    {% for drymonym in drymonyms %}
+    <li>
+        {% assign title = drymonym.names | join ", " %}
+        {% capture url %}/toponyms/drymonyms/{{ title }}{% endcapture %}
+        <a href="{{ url | relative_url }}", title="{{ title }}">{{ tag }}</a>
+        {% for link in drymonym.links %}
+        <a href="https://{{ link }}", target="_blank", title="{{ link | split: '/'' | first }}"><sup>{{ forloop.index }}</sup></a>
+        {% endfor %}
+    </li>
+    {% endfor %}
+</ul>
+{% endfor %}
+
+{{ content }}

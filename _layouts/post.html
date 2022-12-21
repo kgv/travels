@@ -34,14 +34,6 @@ layout: default
                     {% include post/toc.html %}
                 {% endif %}
 
-                <ul>
-                    {% for dromonym in site.data._toponyms.dromonyms %}
-                        <li>
-                        {{ dromonym }}
-                        </li>
-                    {% endfor %}
-                </ul>
-
                 {{ content }}
 
                 {% if page.link %}

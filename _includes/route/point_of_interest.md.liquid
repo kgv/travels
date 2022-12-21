@@ -7,3 +7,16 @@
     {% capture id %}{{ id }}: {{ include.coordinates }}{% endcapture %}
 {% endif -%}
 - [{{ name }}][{{ id }}]{: target="_blank" title="{{ include.coordinates }}" }
+
+
+{% assign toponyms = site.data._toponyms[include.type] | where_exp:"toponym", "toponym.names contains tag" %}
+{% for toponym in toponyms %}
+<li>
+    {% assign title = toponym.names | join ", " %}
+    {% capture url %}/toponyms/toponyms/{{ title }}{% endcapture %}
+    <a href="{{ url | relative_url }}", title="{{ title }}">{{ tag }}</a>
+    {% for link in toponym.links %}
+    <a href="https://{{ link }}", target="_blank", title="{{ link | split: '/'' | first }}"><sup>{{ forloop.index }}</sup></a>
+    {% endfor %}
+</li>
+{% endfor %}

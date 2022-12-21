@@ -1,7 +1,6 @@
 ---
-title: Бакыр-[Баш]({% link _terms/баш.md %}) II
+title: ⒜Бакыр-[Баш]⒯ II⒵
 tags: [гидроним]
-synonyms:
 quadrants: [Ж7, З7]
 ---
 

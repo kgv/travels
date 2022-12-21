@@ -1,7 +1,6 @@
 ---
-title: Комбопло I
+title: ⒜Комбопло I⒵
 tags: [ороним]
-synonyms:
 quadrants: [З6]
 ---
 

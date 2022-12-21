@@ -1,7 +1,6 @@
 ---
-title: Бака-[Таш]({% link _terms/таш.md %}) III
+title: ⒜Бака-[Таш]⒯ III, Яман-[Таш]⒯⒵
 tags: [ороним]
-synonyms: Яман-[Таш]({% link _terms/таш.md %})
 quadrants: [Д6]
 ---
 

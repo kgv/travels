@@ -1,7 +1,6 @@
 ---
-title: Суат I
+title: ⒜Суат I⒵
 tags: [гидроним]
-synonyms:
 quadrants: [Д8]
 ---
 

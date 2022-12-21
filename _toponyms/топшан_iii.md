@@ -1,7 +1,6 @@
 ---
-title: [Топшан]({% link _terms/топшан.md %}) III
+title: ⒜[Топшан]⒯ III⒵
 tags: [ороним]
-synonyms:
 quadrants: [З5]
 ---
 

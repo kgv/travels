@@ -1,7 +1,6 @@
 ---
-title: [Яман]({% link _terms/яман.md %})-[Таш]({% link _terms/таш.md %}) I
+title: ⒜[Яман]⒯ I⒵
 tags: [ороним]
-synonyms:
 quadrants: [В8]
 ---
 

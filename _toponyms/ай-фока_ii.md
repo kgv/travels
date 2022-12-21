@@ -1,7 +1,6 @@
 ---
-title: [Ай]({% link _terms/ай.md %})-Фока II
+title: ⒜[Ай]⒯-Фока II⒵
 tags: [ороним]
-synonyms:
 quadrants: [Д9]
 ---
 

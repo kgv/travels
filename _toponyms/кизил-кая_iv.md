@@ -1,7 +1,6 @@
 ---
-title: [Кизил]({% link _terms/кизил.md %})-[Кая]({% link _terms/кая.md %}) IV
+title: ⒜[Кизил]⒯ IV⒵
 tags: [ороним]
-synonyms:
 quadrants: [Г11]
 ---
 

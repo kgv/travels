@@ -1,7 +1,6 @@
 ---
-title: [Беш](terms/беш)-[Таш](terms/таш) II
+title: ⒜[Беш](terms/беш)-[Таш](terms/таш) II⒵
 tags: [ороним]
-synonyms:
 quadrants: [И5]
 ---
 

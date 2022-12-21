@@ -1,7 +1,6 @@
 ---
-title: Тырке II
+title: ⒜Тырке II⒵
 tags: [ороним]
-synonyms:
 quadrants: [Г9]
 ---
 

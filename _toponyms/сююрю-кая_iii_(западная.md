@@ -1,7 +1,6 @@
 ---
-title: [Сююрю]({% link _terms/сююрю.md %})-[Кая]({% link _terms/кая.md %}) III (Западная)
+title: ⒜[Сююрю]⒯ III (Западная), [Сандык]⒯⒵
 tags: [ороним]
-synonyms: [Сандык]({% link _terms/сандык.md %})-[Кая]({% link _terms/кая.md %}), Треножка, Маркур-[Кая]({% link _terms/кая.md %}), Джезве-[Кая]({% link _terms/кая.md %})
 quadrants: [Г14]
 ---
 

@@ -1,7 +1,6 @@
 ---
-title: Крестовая [Гора]({% link _terms/гора.md %}) I
+title: ⒜Крестовая [Гора]⒯ I⒵
 tags: [ороним]
-synonyms:
 quadrants: [З7]
 ---
 

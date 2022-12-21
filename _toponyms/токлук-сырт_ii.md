@@ -1,7 +1,6 @@
 ---
-title: Токлук-[Сырт]({% link _terms/сырт.md %}) II
+title: ⒜Токлук-[Сырт]⒯ II, Туклук-[Сырт]⒯⒵
 tags: [ороним]
-synonyms: Туклук-[Сырт]({% link _terms/сырт.md %}), Ток-[Сырт]({% link _terms/сырт.md %})
 quadrants: [Д8]
 ---
 

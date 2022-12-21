@@ -1,7 +1,6 @@
 ---
-title: Качи-Кальон I
+title: ⒜Качи-Кальон I⒵
 tags:
-synonyms:
 quadrants: [Е5]
 ---
 

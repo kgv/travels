@@ -1,7 +1,6 @@
 ---
-title: Карчигалы I
+title: ⒜Карчигалы I, Карчига⒵
 tags: [ороним]
-synonyms: Карчига
 quadrants: [Г10]
 ---
 

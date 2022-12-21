@@ -1,7 +1,6 @@
 ---
-title: Юки-[Тепе]({% link _terms/тепе.md %}) II
+title: ⒜Юки-[Тепе]⒯ II, Высота 1025⒵
 tags: [ороним]
-synonyms: Высота 1025
 quadrants: [Д9]
 ---
 

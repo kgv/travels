@@ -1,7 +1,6 @@
 ---
-title: Караголь I
+title: ⒜Караголь I⒵
 tags: [гидроним]
-synonyms:
 quadrants: [З6]
 ---
 

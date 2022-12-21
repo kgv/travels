@@ -1,7 +1,6 @@
 ---
-title: [Караул]({% link _terms/караул.md %})-[Тепе]({% link _terms/тепе.md %}) I
+title: ⒜[Караул]⒯ I⒵
 tags: [ороним]
-synonyms:
 quadrants: [Е5]
 ---
 

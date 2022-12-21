@@ -1,7 +1,6 @@
 ---
-title: Куба-[Бурун]({% link _terms/бурун.md %}) I
+title: ⒜Куба-[Бурун]⒯ I⒵
 tags: [ороним]
-synonyms:
 quadrants: [Г12]
 ---
 

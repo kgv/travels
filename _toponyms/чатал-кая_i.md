@@ -1,7 +1,6 @@
 ---
-title: [Чатал]({% link _terms/чатал.md %})-[Кая]({% link _terms/кая.md %}) I
+title: ⒜[Чатал]⒯ I⒵
 tags: [ороним]
-synonyms:
 quadrants: [В13]
 ---
 

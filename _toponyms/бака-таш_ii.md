@@ -1,7 +1,6 @@
 ---
-title: Бака-[Таш](terms/таш) II
+title: ⒜Бака-[Таш](terms/таш) II, Сукновальня⒵
 tags: [ороним]
-synonyms: Сукновальня
 quadrants: [Б14]
 ---
 

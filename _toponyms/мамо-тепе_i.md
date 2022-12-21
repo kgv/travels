@@ -1,7 +1,6 @@
 ---
-title: Мамо-[Тепе]({% link _terms/тепе.md %}) I
+title: ⒜Мамо-[Тепе]⒯ I, [Кая]⒯⒵
 tags: [ороним]
-synonyms: [Кая]({% link _terms/кая.md %})-[Тепе]({% link _terms/тепе.md %})
 quadrants: [Е5]
 ---
 

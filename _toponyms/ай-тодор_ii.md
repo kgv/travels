@@ -1,7 +1,6 @@
 ---
-title: [Ай]({% link _terms/ай.md %})-Тодор II
+title: ⒜[Ай]⒯-Тодор II⒵
 tags: [ороним]
-synonyms:
 quadrants: [Ж4]
 ---
 

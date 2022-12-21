@@ -1,7 +1,6 @@
 ---
-title: [Беш]({% link _terms/беш.md %})-[Таш]({% link _terms/таш.md %}) I
+title: ⒜[Беш]⒯ I⒵
 tags: [ороним]
-synonyms:
 quadrants: [В15]
 ---
 

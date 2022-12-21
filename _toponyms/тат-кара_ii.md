@@ -1,7 +1,6 @@
 ---
-title: Тат-[Кара]({% link _terms/кара.md %}) II
+title: ⒜Тат-[Кара]⒯ II, Тот-Кара⒵
 tags: [ороним]
-synonyms: Тот-Кара
 quadrants: [В13]
 ---
 

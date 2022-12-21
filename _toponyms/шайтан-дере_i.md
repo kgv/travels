@@ -1,7 +1,6 @@
 ---
-title: [Шайтан]({% link _terms/шайтан.md %})-[Дере]({% link _terms/дере.md %}) I
+title: ⒜[Шайтан]⒯ I⒵
 tags: [ороним]
-synonyms:
 quadrants: [З2]
 ---
 

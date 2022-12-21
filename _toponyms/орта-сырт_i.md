@@ -1,7 +1,6 @@
 ---
-title: [Орта]({% link _terms/орта.md %})-[Сырт]({% link _terms/сырт.md %}) I
+title: ⒜[Орта]⒯ I⒵
 tags: [ороним]
-synonyms:
 quadrants: [В12]
 ---
 

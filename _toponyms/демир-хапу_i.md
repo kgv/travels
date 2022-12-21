@@ -1,7 +1,6 @@
 ---
-title: [Демир]({% link _terms/демир.md %})-[Хапу]({% link _terms/хапу.md %}) I
+title: ⒜[Демир]⒯ I⒵
 tags: [ороним]
-synonyms:
 quadrants: [Д8]
 ---
 

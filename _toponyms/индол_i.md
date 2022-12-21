@@ -1,7 +1,6 @@
 ---
-title: Индол I
+title: ⒜Индол I⒵
 tags: [гидроним]
-synonyms:
 quadrants: [В12, А13]
 ---
 

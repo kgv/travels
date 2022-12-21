@@ -1,7 +1,6 @@
 ---
-title: Чурук-[Су]({% link _terms/су.md %}) I
+title: ⒜Чурук-[Су]⒯ I⒵
 tags: [гидроним]
-synonyms:
 quadrants: [Б14, А15]
 ---
 

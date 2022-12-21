@@ -1,7 +1,6 @@
 ---
-title: Панагия I
+title: ⒜Панагия I⒵
 tags: [ороним]
-synonyms:
 quadrants: [З7]
 ---
 

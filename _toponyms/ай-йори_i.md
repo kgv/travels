@@ -1,7 +1,6 @@
 ---
-title: [Ай]({% link _terms/ай.md %})-Йори I
+title: ⒜[Ай]⒯-Йори I⒵
 tags: [ороним]
-synonyms:
 quadrants: [З7]
 ---
 

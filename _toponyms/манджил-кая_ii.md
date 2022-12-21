@@ -1,7 +1,6 @@
 ---
-title: Манджил-[Кая]({% link _terms/кая.md %}) II
+title: ⒜Манджил-[Кая]⒯ II⒵
 tags: [ороним]
-synonyms:
 quadrants: [В14]
 ---
 

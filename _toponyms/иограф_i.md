@@ -1,7 +1,6 @@
 ---
-title: Иограф I
+title: ⒜Иограф I⒵
 tags: [ороним]
-synonyms:
 quadrants: [З6]
 ---
 

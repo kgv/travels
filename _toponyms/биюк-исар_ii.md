@@ -1,7 +1,6 @@
 ---
-title: [Биюк](terms/биюк)-[Исар](terms/исар) II
+title: ⒜[Биюк](terms/биюк)-[Исар](terms/исар) II, [Биюк](terms/биюк)-Хисар⒵
 tags: [ороним]
-synonyms: [Биюк](terms/биюк)-Хисар
 quadrants: [В10, А10]
 ---
 

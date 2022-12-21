@@ -1,7 +1,6 @@
 ---
-title: Яузлар I
+title: ⒜Яузлар I⒵
 tags: [гидроним]
-synonyms:
 quadrants: [З6]
 ---
 

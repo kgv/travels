@@ -1,7 +1,6 @@
 ---
-title: [Чатал]({% link _terms/чатал.md %})-[Кая]({% link _terms/кая.md %}) II
+title: ⒜[Чатал]⒯ II, Кошка⒵
 tags: [ороним]
-synonyms: Кошка
 quadrants: [Г12]
 ---
 

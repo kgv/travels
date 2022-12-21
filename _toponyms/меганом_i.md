@@ -1,7 +1,6 @@
 ---
-title: Меганом I
+title: ⒜Меганом I⒵
 tags: [инсулоним]
-synonyms:
 quadrants: [Д14]
 ---
 

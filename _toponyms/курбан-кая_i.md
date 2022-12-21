@@ -1,7 +1,6 @@
 ---
-title: Курбан-[Кая]({% link _terms/кая.md %}) I
+title: ⒜Курбан-[Кая]⒯ I⒵
 tags: [ороним]
-synonyms:
 quadrants: [В14]
 ---
 

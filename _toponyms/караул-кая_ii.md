@@ -1,7 +1,6 @@
 ---
-title: [Караул]({% link _terms/караул.md %})-[Кая]({% link _terms/кая.md %}) II
+title: ⒜[Караул]⒯ II, [Орта]⒯, Орлиный Залет⒵
 tags: [ороним]
-synonyms: [Орта]({% link _terms/орта.md %})-[Кая]({% link _terms/кая.md %}), Орлиный Залет
 quadrants: [Г13]
 ---
 

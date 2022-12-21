@@ -1,7 +1,6 @@
 ---
-title: [Караул]({% link _terms/караул.md %})-[Кая]({% link _terms/кая.md %}) I
+title: ⒜[Караул]⒯ I⒵
 tags: [ороним]
-synonyms:
 quadrants: [Ж6]
 ---
 

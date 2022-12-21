@@ -1,7 +1,6 @@
 ---
-title: Оксек-Бурун I
+title: ⒜Оксек-Бурун I⒵
 tags: [ороним]
-synonyms:
 quadrants: [Ж7]
 ---
 

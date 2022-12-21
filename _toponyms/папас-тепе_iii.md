@@ -1,7 +1,6 @@
 ---
-title: Папас-[Тепе]({% link _terms/тепе.md %}) III
+title: ⒜Папас-[Тепе]⒯ III, Ёжик⒵
 tags: [ороним]
-synonyms: Ёжик
 quadrants: [Г11]
 ---
 

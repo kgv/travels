@@ -1,7 +1,6 @@
 ---
-title: [Куш]({% link _terms/куш.md %})-[Кая]({% link _terms/кая.md %}) IV
+title: ⒜[Куш]⒯ IV, Зуб, Эчки-[Даг]⒯ (?)⒵
 tags: [ороним]
-synonyms: Зуб, Эчки-[Даг]({% link _terms/даг.md %}) (?)
 quadrants: [З6]
 ---
 

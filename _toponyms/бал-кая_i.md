@@ -1,7 +1,6 @@
 ---
-title: Бал-[Кая](terms/кая) I
+title: ⒜Бал-[Кая](terms/кая) I⒵
 tags: [ороним]
-synonyms:
 quadrants: [В15]
 ---
 

@@ -1,7 +1,6 @@
 ---
-title: [Чатал]({% link _terms/чатал.md %})-[Кая]({% link _terms/кая.md %}) III
+title: ⒜[Чатал]⒯ III, Эмджетен, Кечи-Эмеси⒵
 tags: [ороним]
-synonyms: Эмджетен, Кечи-Эмеси
 quadrants: [В13]
 ---
 

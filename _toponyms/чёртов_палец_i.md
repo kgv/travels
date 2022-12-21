@@ -1,7 +1,6 @@
 ---
-title: Чёртов Палец I
+title: ⒜Чёртов Палец I⒵
 tags: [ороним]
-synonyms:
 quadrants: [В15]
 ---
 

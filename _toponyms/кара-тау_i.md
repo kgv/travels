@@ -1,7 +1,6 @@
 ---
-title: [Кара]({% link _terms/кара.md %})-[Тау]({% link _terms/тау.md %}) I
+title: ⒜[Кара]⒯ I⒵
 tags: [ороним]
-synonyms:
 quadrants: [Г9]
 ---
 

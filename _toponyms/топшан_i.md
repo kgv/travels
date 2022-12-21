@@ -1,7 +1,6 @@
 ---
-title: [Топшан]({% link _terms/топшан.md %}) I
+title: ⒜[Топшан]⒯ I, Дувель⒵
 tags: [ороним]
-synonyms: Дувель
 quadrants: [В12]
 ---
 

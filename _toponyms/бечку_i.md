@@ -1,7 +1,6 @@
 ---
-title: Бечку I
+title: ⒜Бечку I⒵
 tags: [ороним]
-synonyms:
 quadrants: [З4]
 ---
 

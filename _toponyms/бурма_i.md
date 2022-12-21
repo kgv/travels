@@ -1,7 +1,6 @@
 ---
-title: Бурма I
+title: ⒜Бурма I⒵
 tags: [ороним]
-synonyms:
 quadrants: [З6]
 ---
 

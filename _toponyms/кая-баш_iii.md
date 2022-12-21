@@ -1,7 +1,6 @@
 ---
-title: [Кая]({% link _terms/кая.md %})-[Баш]({% link _terms/баш.md %}) III
+title: ⒜[Кая]⒯ III⒵
 tags: [ороним]
-synonyms:
 quadrants: [Ж4]
 ---
 

@@ -1,7 +1,6 @@
 ---
-title: Айвалык I
+title: ⒜Айвалык I⒵
 tags: [ороним]
-synonyms:
 quadrants: [В14]
 ---
 

@@ -1,7 +1,6 @@
 ---
-title: Сюндюрлю-[Кобасы]({% link _terms/кобасы.md %}) I
+title: ⒜Сюндюрлю-[Кобасы]⒯ I⒵
 tags: [ороним, спелеоним]
-synonyms:
 quadrants: [З5]
 ---
 

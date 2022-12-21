@@ -1,7 +1,6 @@
 ---
-title: Карагач II
+title: ⒜Карагач II⒵
 tags: [ороним]
-synonyms:
 quadrants: [В15]
 ---
 

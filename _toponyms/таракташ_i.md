@@ -1,7 +1,6 @@
 ---
-title: Таракташ I
+title: ⒜Таракташ I⒵
 tags: [гидроним]
-synonyms:
 quadrants: [В13]
 ---
 

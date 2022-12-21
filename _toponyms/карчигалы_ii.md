@@ -1,7 +1,6 @@
 ---
-title: Карчигалы II
+title: ⒜Карчигалы II, Иртыш⒵
 tags: [ороним]
-synonyms: Иртыш
 quadrants: [В12]
 ---
 

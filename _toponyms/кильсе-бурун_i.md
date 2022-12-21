@@ -1,7 +1,6 @@
 ---
-title: [Кильсе]({% link _terms/кильсе.md %})-[Бурун]({% link _terms/бурун.md %}) I
+title: ⒜[Кильсе]⒯ I⒵
 tags: [ороним]
-synonyms:
 quadrants: [З3]
 ---
 

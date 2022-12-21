@@ -1,7 +1,6 @@
 ---
-title: [Орта]({% link _terms/орта.md %})-[Сырт]({% link _terms/сырт.md %}) III
+title: ⒜[Орта]⒯ III, Малая Караби⒵
 tags: [ороним]
-synonyms: Малая Караби
 quadrants: [В11]
 ---
 

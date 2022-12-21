@@ -1,7 +1,6 @@
 ---
-title: Манджил-Кая I
+title: ⒜Манджил-Кая I⒵
 tags: [ороним]
-synonyms:
 quadrants: [В14]
 ---
 

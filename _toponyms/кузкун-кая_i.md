@@ -1,7 +1,6 @@
 ---
-title: Кузкун-[Кая]({% link _terms/кая.md %}) I
+title: ⒜Кузкун-[Кая]⒯ I⒵
 tags: [ороним]
-synonyms:
 quadrants: [Г13]
 ---
 

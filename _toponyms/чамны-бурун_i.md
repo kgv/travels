@@ -1,7 +1,6 @@
 ---
-title: Чамны-[Бурун]({% link _terms/бурун.md %}) I
+title: ⒜Чамны-[Бурун]⒯ I⒵
 tags: [ороним]
-synonyms:
 quadrants: [Е8]
 ---
 

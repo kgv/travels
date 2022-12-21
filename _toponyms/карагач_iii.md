@@ -1,7 +1,6 @@
 ---
-title: Карагач III
+title: ⒜Карагач III⒵
 tags: [ороним]
-synonyms:
 quadrants: [В15]
 ---
 

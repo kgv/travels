@@ -1,7 +1,6 @@
 ---
-title: Ласпи I
+title: ⒜Ласпи I⒵
 tags: [ороним]
-synonyms:
 quadrants: [И3]
 ---
 

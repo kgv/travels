@@ -1,7 +1,6 @@
 ---
-title: [Сары]({% link _terms/сары.md %})-[Кая]({% link _terms/кая.md %}) IV
+title: ⒜[Сары]⒯ IV, Сыра-[Кая]⒯, Гребешок⒵
 tags: [ороним]
-synonyms: Сыра-[Кая]({% link _terms/кая.md %}), Гребешок
 quadrants: [Г12]
 ---
 

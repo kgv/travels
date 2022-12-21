@@ -1,7 +1,6 @@
 ---
-title: Бакыр-[Баш]({% link _terms/баш.md %}) I
+title: ⒜Бакыр-[Баш]⒯ I⒵
 tags: [ороним]
-synonyms:
 quadrants: [В15]
 ---
 

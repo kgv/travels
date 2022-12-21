@@ -1,7 +1,6 @@
 ---
-title: Суат II
+title: ⒜Суат II⒵
 tags: [гидроним]
-synonyms:
 quadrants: [Г9, В9]
 ---
 

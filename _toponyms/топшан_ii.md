@@ -1,7 +1,6 @@
 ---
-title: [Топшан]({% link _terms/топшан.md %}) II
+title: ⒜[Топшан]⒯ II, [Тапшан]⒯, Аюлук, Аювлы⒵
 tags: [ороним]
-synonyms: [Тапшан]({% link _terms/тапшан.md %}), Аюлук, Аювлы
 quadrants: [Е4]
 ---
 

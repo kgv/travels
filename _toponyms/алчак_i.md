@@ -1,7 +1,6 @@
 ---
-title: Алчак I
+title: ⒜Алчак I⒵
 tags: [ороним]
-synonyms:
 quadrants: [Г13]
 ---
 

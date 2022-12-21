@@ -1,7 +1,6 @@
 ---
-title: Иограф II
+title: ⒜Иограф II⒵
 tags: [ороним, спелеоним]
-synonyms:
 quadrants: [З6]
 ---
 

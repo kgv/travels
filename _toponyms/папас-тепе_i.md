@@ -1,7 +1,6 @@
 ---
-title: Папас-[Тепе]({% link _terms/тепе.md %}) I
+title: ⒜Папас-[Тепе]⒯ I⒵
 tags: [ороним]
-synonyms:
 quadrants: [В13]
 ---
 

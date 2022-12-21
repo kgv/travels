@@ -1,7 +1,6 @@
 ---
-title: Лапата I
+title: ⒜Лапата I⒵
 tags: [ороним]
-synonyms:
 quadrants: [Г11]
 ---
 

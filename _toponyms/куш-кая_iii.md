@@ -1,7 +1,6 @@
 ---
-title: [Куш]({% link _terms/куш.md %})-[Кая]({% link _terms/кая.md %}) III
+title: ⒜[Куш]⒯ III, Звездочет⒵
 tags: [ороним]
-synonyms: Звездочет
 quadrants: [В14]
 ---
 

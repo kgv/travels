@@ -1,7 +1,6 @@
 ---
-title: Таракташ II
+title: ⒜Таракташ II⒵
 tags: [ороним]
-synonyms:
 quadrants: [З6]
 ---
 

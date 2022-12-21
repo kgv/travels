@@ -1,7 +1,6 @@
 ---
-title: [Бугас]({% link _terms/бугас.md %}) I
+title: ⒜[Бугас]⒯ I⒵
 tags: [ороним]
-synonyms:
 quadrants: [Г14]
 ---
 

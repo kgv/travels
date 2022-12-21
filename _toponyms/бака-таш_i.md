@@ -1,7 +1,6 @@
 ---
-title: Бака-[Таш]({% link _terms/таш.md %}) I
+title: ⒜Бака-[Таш]⒯ I, Лягушка⒵
 tags: [ороним]
-synonyms: Лягушка
 quadrants: [Б14]
 ---
 

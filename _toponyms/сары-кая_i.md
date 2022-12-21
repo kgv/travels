@@ -1,7 +1,6 @@
 ---
-title: [Сары]({% link _terms/сары.md %})-[Кая]({% link _terms/кая.md %}) I
+title: ⒜[Сары]⒯ I⒵
 tags: [ороним]
-synonyms:
 quadrants: [З5]
 ---
 

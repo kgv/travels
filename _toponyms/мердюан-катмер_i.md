@@ -1,7 +1,6 @@
 ---
-title: Мердюан-Катмер I
+title: ⒜Мердюан-Катмер I⒵
 tags: [ороним]
-synonyms:
 quadrants: [Г14]
 ---
 

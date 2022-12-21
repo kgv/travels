@@ -1,7 +1,6 @@
 ---
-title: Панагия II
+title: ⒜Панагия II⒵
 tags: [гидроним]
-synonyms:
 quadrants: [Г11]
 ---
 

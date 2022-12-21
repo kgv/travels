@@ -1,7 +1,6 @@
 ---
-title: Чукур-[Кая]({% link _terms/кая.md %}) II
+title: ⒜Чукур-[Кая]⒯ II⒵
 tags: [ороним]
-synonyms:
 quadrants: [В12]
 ---
 

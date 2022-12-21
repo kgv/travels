@@ -1,7 +1,6 @@
 ---
-title: [Куш]({% link _terms/куш.md %})-[Кая]({% link _terms/кая.md %}) V
+title: ⒜[Куш]⒯ V, [Кош]⒯⒵
 tags: [ороним]
-synonyms: [Кош]({% link _terms/кош.md %})-[Кая]({% link _terms/кая.md %})
 quadrants: [И3]
 ---
 

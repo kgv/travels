@@ -1,7 +1,6 @@
 ---
-title: Хаста-[Баш]({% link _terms/баш.md %}) I
+title: ⒜Хаста-[Баш]⒯ I⒵
 tags: [гидроним]
-synonyms:
 quadrants: [И6]
 ---
 

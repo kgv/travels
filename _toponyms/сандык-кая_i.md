@@ -1,7 +1,6 @@
 ---
-title: [Сандык]({% link _terms/сандык.md %})-[Кая]({% link _terms/кая.md %}) I
+title: ⒜[Сандык]⒯ I⒵
 tags: [ороним]
-synonyms:
 quadrants: [В14]
 ---
 

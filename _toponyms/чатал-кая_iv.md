@@ -1,7 +1,6 @@
 ---
-title: [Чатал]({% link _terms/чатал.md %})-[Кая]({% link _terms/кая.md %}) IV
+title: ⒜[Чатал]⒯ IV, Малый [Чатал]⒯, Верблюд⒵
 tags: [ороним]
-synonyms: Малый [Чатал]({% link _terms/чатал.md %}), Верблюд
 quadrants: [В12]
 ---
 

@@ -1,7 +1,6 @@
 ---
-title: Куру-[Узень]({% link _terms/узень.md %}) I
+title: ⒜Куру-[Узень]⒯ I⒵
 tags: [гидроним]
-synonyms:
 quadrants: [З6]
 ---
 

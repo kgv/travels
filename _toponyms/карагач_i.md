@@ -1,7 +1,6 @@
 ---
-title: Карагач I
+title: ⒜Карагач I⒵
 tags: [гидроним]
-synonyms:
 quadrants: [В13]
 ---
 

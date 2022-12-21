@@ -1,7 +1,6 @@
 ---
-title: Бурма II
+title: ⒜Бурма II⒵
 tags: [ороним]
-synonyms:
 quadrants: [Ж8]
 ---
 

@@ -1,7 +1,6 @@
 ---
-title: Сюндюрлю-[Кобасы]({% link _terms/кобасы.md %}) II
+title: ⒜Сюндюрлю-[Кобасы]⒯ II, Пилотка⒵
 tags: [ороним]
-synonyms: Пилотка
 quadrants: [Ж4]
 ---
 

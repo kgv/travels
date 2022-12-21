@@ -1,7 +1,6 @@
 ---
-title: [Суук]({% link _terms/суук.md %})-[Су]({% link _terms/су.md %}) II
+title: ⒜[Суук]⒯ II⒵
 tags: [гидроним]
-synonyms:
 quadrants: [Г10]
 ---
 

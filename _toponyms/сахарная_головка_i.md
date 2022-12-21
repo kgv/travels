@@ -1,7 +1,6 @@
 ---
-title: Сахарная Головка I
+title: ⒜Сахарная Головка I⒵
 tags: [ороним]
-synonyms:
 quadrants: [Ж2]
 ---
 

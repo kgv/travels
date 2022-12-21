@@ -1,7 +1,6 @@
 ---
-title: Тырке I
+title: ⒜Тырке I⒵
 tags: [гидроним]
-synonyms:
 quadrants: [Г9]
 ---
 

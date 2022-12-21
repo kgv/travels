@@ -1,7 +1,6 @@
 ---
-title: Куру-[Узень]({% link _terms/узень.md %}) II
+title: ⒜Куру-[Узень]⒯ II⒵
 tags: [ороним]
-synonyms:
 quadrants: [Д9, Д10]
 ---
 

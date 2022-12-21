@@ -1,7 +1,6 @@
 ---
-title: Суат III
+title: ⒜Суат III, [Биюк]⒯-Суат⒵
 tags: [гидроним]
-synonyms: [Биюк]({% link _terms/биюк.md %})-Суат
 quadrants: [Г9]
 ---
 

@@ -1,7 +1,6 @@
 ---
-title: [Бурун]({% link _terms/бурун.md %})-[Кая]({% link _terms/кая.md %}) I
+title: ⒜[Бурун]⒯ I, Калая-[Бурун]⒯⒵
 tags: [ороним]
-synonyms: Калая-[Бурун]({% link _terms/бурун.md %})
 quadrants: [Ж4]
 ---
 

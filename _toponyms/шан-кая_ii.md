@@ -1,7 +1,6 @@
 ---
-title: [Шан]({% link _terms/шан.md %})-[Кая]({% link _terms/кая.md %}) II
+title: ⒜[Шан]⒯ II, [Шаан]⒯⒵
 tags: [ороним]
-synonyms: [Шаан]({% link _terms/шаан.md %})-[Кая]({% link _terms/кая.md %})
 quadrants: [В10]
 ---
 

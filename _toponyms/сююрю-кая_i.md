@@ -1,7 +1,6 @@
 ---
-title: [Сююрю]({% link _terms/сююрю.md %})-[Кая]({% link _terms/кая.md %}) I
+title: ⒜[Сююрю]⒯ I⒵
 tags: [ороним]
-synonyms:
 quadrants: [З5]
 ---
 

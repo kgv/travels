@@ -10,6 +10,14 @@ http://eurotourist.club/viewtopic.php?f=83&t=119616&start=30
 http://www.caucasia.ru/
 http://rodnik-crimea.ru/Tds.html
 
+```liquid
+{{ content | remove: "<p>" | remove: "</p>"
+    | replace: "[В]", "[В](# 'Восток')"
+    | replace: "[З]", "[З](# 'Запад')"
+    | replace: "[С]", "[С](# 'Север')"
+    | replace: "[Ю]", "[Ю](# 'Юг')" }}
+```
+
 ## Запросы терминал
 
 `site/assets/toponyms/temp`

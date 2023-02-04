@@ -1,4 +1,4 @@
-# {{ page.title | join: ", " }}
+# {{ page.title }}
 
 {:style="text-align:center;"}
 {% for quadrant in page.quadrants -%}
@@ -6,11 +6,7 @@
 ![{{ quadrant }}]({{ path | relative_url }} "{{ quadrant }}"){:height="200px" width="200px" style="width:200px; height:200px; object-fit:cover; border: 1px solid #000;"}
 {%- endfor %}
 
-{{ content | remove: "<p>" | remove: "</p>"
-    | replace: "[В]", "[В](# 'Восток')"
-    | replace: "[З]", "[З](# 'Запад')"
-    | replace: "[С]", "[С](# 'Север')"
-    | replace: "[Ю]", "[Ю](# 'Юг')" }}
+{{ content }}
 
 {{ site._toponyms }}
 

@@ -6,6 +6,7 @@
 ![{{ quadrant }}]({{ path | relative_url }} "{{ quadrant }}"){:height="200px" width="200px" style="width:200px; height:200px; object-fit:cover; border: 1px solid #000;"}
 {%- endfor %}
 
+{% comment %}<!-- Abbreviations -->{% endcomment %}
 {% for abbreviation in site.data.abbreviations -%}
 {%- for abbreviation in abbreviation -%}
 {%- capture from %}⦅{{ abbreviation[0] }}⦆{% endcapture -%}
@@ -14,9 +15,18 @@
 {%- endfor -%}
 {%- endfor %}
 
+{% comment %}<!-- Terms -->{% endcomment %}
+{% for term in site.terms -%}
+term: {{ term.title }}
+{%- capture from %}⟦{{ term.title }}⟧{% endcapture -%}
+{%- capture to %}<a href="/site/terms/{{ term.title }}" title="{{ term.title }}">{{ term.title }}</a>{% endcapture -%}
+{%- assign content = content | replace: from, to -%}
+{%- endfor %}
+
+{% comment %}<!-- Toponyms -->{% endcomment %}
 {% for toponym in site.toponyms -%}
-{%- assign from = toponym | remove: "⟦" | remove: "⟧" -%}
-{%- capture to %}<a href="" title="{{ toponym }}">{{ toponym }}</a>{% endcapture -%}
+{%- assign from = toponym.title | remove: "⟦" | remove: "⟧" -%}
+{%- capture to %}<a href="/site/toponyms/{{ from }}" title="{{ from }}">{{ from }}</a>{% endcapture -%}
 {%- assign content = content | replace: from, to -%}
 {%- endfor %}
 

@@ -7,16 +7,24 @@
 {%- endfor %}
 
 {% for abbreviation in site.data.abbreviations -%}
-<{{ abbreviation }}>
-{% assign content = content | replace: "⦅abbreviation⦆", "<a href='javascript:void(0)' title='Восток'>abbreviation</a>" %}
+{%- for abbreviation in abbreviation -%}
+{%- capture from %}⦅{{ abbreviation[0] }}⦆{% endcapture -%}
+{%- capture to %}<a href="javascript:void(0)" title="{{ abbreviation[1] }}">{{ abbreviation[0] }}</a>{% endcapture -%}
+{%- assign content = content | replace: from, to -%}
+{%- endfor -%}
+{%- endfor %}
+
+{% for toponym in site.toponyms -%}
+{%- assign from = toponym | remove: "⟦" | remove: "⟧" -%}
+{%- capture to %}<a href="" title="{{ toponym }}">{{ toponym }}</a>{% endcapture -%}
+{%- assign content = content | replace: from, to -%}
 {%- endfor %}
 
 {{ content }}
 
-{{ site._toponyms }}
-
 {%- assign lowercase = content | downcase -%}
 {% for term in site.data.terms -%}
+term:{{ term }}
 {%- capture link -%}[{{ term }}]{%- endcapture -%}
 {%- if lowercase contains link -%}[{{ term }}]: /site/terms/{{ term }}{%- endif -%}
 {%- endfor %}

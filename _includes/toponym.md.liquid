@@ -7,8 +7,10 @@
 {%- endfor %}
 
 {% for abbreviation in site.data.abbreviations -%}
-{%- capture content %}{{ content | replace: "⦅abbreviation⦆", "<a href='javascript:void(0)' title='Восток'>abbreviation</a>" }}{% endcapture -%}
+<{{ abbreviation }}>
+{% assign content = content | replace: "⦅abbreviation⦆", "<a href='javascript:void(0)' title='Восток'>abbreviation</a>" %}
 {%- endfor %}
+
 {{ content }}
 
 {{ site._toponyms }}

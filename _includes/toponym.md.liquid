@@ -6,11 +6,10 @@
 ![{{ quadrant }}]({{ path | relative_url }} "{{ quadrant }}"){:height="200px" width="200px" style="width:200px; height:200px; object-fit:cover; border: 1px solid #000;"}
 {%- endfor %}
 
-{{ content
-    | replace: "⦅В⦆", "<a href='javascript:void(0)' title='Восток'>В</a>"
-    | replace: "⦅З⦆", "<a href='javascript:void(0)' title='Запад'>З</a>
-    | replace: "⦅С⦆", "<a href='javascript:void(0)' title='Север'>С</a>
-    | replace: "⦅Ю⦆", "<a href='javascript:void(0)' title='Юг'>Ю</a>
+{% for abbreviation in site.data.abbreviations -%}
+{%- capture content %}{{ content | replace: "⦅abbreviation⦆", "<a href='javascript:void(0)' title='Восток'>abbreviation</a>" }}{% endcapture -%}
+{%- endfor %}
+{{ content }}
 
 {{ site._toponyms }}
 

@@ -1,5 +1,3 @@
-# {{ page.title }}
-
 {:style="text-align:center;"}
 {% for quadrant in page.quadrants -%}
 {%- capture path %}/assets/images/map/{{ quadrant }}.jpg{% endcapture -%}
@@ -17,7 +15,6 @@
 
 {% comment %}<!-- Terms -->{% endcomment %}
 {% for term in site.terms -%}
-term: {{ term.title }}
 {%- capture from %}⟦{{ term.title }}⟧{% endcapture -%}
 {%- capture to %}<a href="/site/terms/{{ term.title }}" title="{{ term.title }}">{{ term.title }}</a>{% endcapture -%}
 {%- assign content = content | replace: from, to -%}

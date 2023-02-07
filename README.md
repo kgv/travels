@@ -18,6 +18,8 @@ http://rodnik-crimea.ru/Tds.html
     | replace: "[Ю]", "[Ю](# 'Юг')" }}
 ```
 
+`| prepend: " " | prepend: site.data.strings[site.locale].term`
+
 ## Запросы терминал
 
 `site/assets/toponyms/temp`

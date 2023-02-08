@@ -184,13 +184,13 @@ kramdown:
 collections:
   localities:
     output: true
-    permalink: /:collection/:path/
+    permalink: /:collection/:path
   terms:
     output: true
-    permalink: /:collection/:path/
+    permalink: /:collection/:title
   toponyms:
     output: true
-    permalink: /:collection/:path/
+    permalink: /:collection/:title
 
 
 # Defaults

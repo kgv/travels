@@ -10,12 +10,31 @@ http://eurotourist.club/viewtopic.php?f=83&t=119616&start=30
 http://www.caucasia.ru/
 http://rodnik-crimea.ru/Tds.html
 
+`<a href="javascript:void(0)" title="{{ abbreviation[1] }}">{{ abbreviation[0] }}</a>`
+
+```
+{% comment %}<!-- Toponyms -->{% endcomment %}
+{% for toponym in site.toponyms -%}
+{%- assign from = toponym.title | remove: "⟦" | remove: "⟧" -%}
+{%- capture to %}<a href="/site/toponyms/{{ from }}" title="{{ from }}">{{ from }}</a>{% endcapture -%}
+{%- assign content = content | replace: from, to -%}
+{%- endfor %}
+```
+
 ```liquid
 {{ content | remove: "<p>" | remove: "</p>"
     | replace: "[В]", "[В](# 'Восток')"
     | replace: "[З]", "[З](# 'Запад')"
     | replace: "[С]", "[С](# 'Север')"
     | replace: "[Ю]", "[Ю](# 'Юг')" }}
+```
+
+```
+{:style="text-align:center;"}
+{% for quadrant in page.quadrants -%}
+{%- capture path %}/assets/images/map/{{ quadrant }}.jpg{% endcapture -%}
+![{{ quadrant }}]({{ path | relative_url }} "{{ quadrant }}"){:height="200px" width="200px" style="width:200px; height:200px; object-fit:cover; border: 1px solid #000;"}
+{%- endfor %}
 ```
 
 `| prepend: " " | prepend: site.data.strings[site.locale].term`

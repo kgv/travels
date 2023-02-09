@@ -6,16 +6,27 @@ layout: post
 
 {{ content }}
 
-<ul>
-    {% for tag in page.tags %}
-        {%- for toponym in site.toponyms -%}
-            {% if toponym.title contains tag %}<a href="{{ toponym.url | relative_url }}", title="{{ toponym.title | join ', ' }}">{{ tag }}</a>{% endif %}
-        {%- endfor %}
+<h2 itemprop="headline">Points of interest</h2>
 
-        {% include route/toponym.html.liquid toponyms=site.data._toponyms.dromonyms toponym=tag %}
-        {% include route/toponym.html.liquid toponyms=site.data._toponyms.drymonyms toponym=tag %}
-        {% include route/toponym.html.liquid toponyms=site.data._toponyms.hydronyms toponym=tag %}
-        {% include route/toponym.html.liquid toponyms=site.data._toponyms.oikonyms toponym=tag %}
-        {% include route/toponym.html.liquid toponyms=site.data._toponyms.oronyms toponym=tag %}
+{% assign titles = site.toponyms | map: "title" %}
+{{ titles }}
+
+<ul>
+{% for tag in page.tags %}
+    {% assign toponym = site.toponyms | where: "title", "tag" | first %}
+    gg: {{ toponym }}
+    {% assign toponym = site.toponyms | where_exp: "toponym", "toponym.title == tag" | first %}
+    hh: {{ toponym }}
+
+    <li>
+    {% assign toponym = tag %}
+    {% for toponym in site.toponyms %}
+        {% if toponym.title == tag %}
+            {% capture toponym -%}<a href="{{ toponym.url | relative_url }}", title="{{ toponym.title }}">{{ toponym.title }}</a>{%- endcapture %}
+            {% break %}
+        {% endif %}
     {% endfor %}
+    {{ toponym }}
+    </li>
+{% endfor %}
 </ul>

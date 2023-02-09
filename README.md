@@ -12,6 +12,15 @@ http://rodnik-crimea.ru/Tds.html
 
 `<a href="javascript:void(0)" title="{{ abbreviation[1] }}">{{ abbreviation[0] }}</a>`
 
+{% assign titles = site.toponyms | map: "title" %}
+{{ titles }}
+
+{% include route/toponym.html.liquid toponyms=site.data._toponyms.dromonyms toponym=tag %}
+{% include route/toponym.html.liquid toponyms=site.data._toponyms.drymonyms toponym=tag %}
+{% include route/toponym.html.liquid toponyms=site.data._toponyms.hydronyms toponym=tag %}
+{% include route/toponym.html.liquid toponyms=site.data._toponyms.oikonyms toponym=tag %}
+{% include route/toponym.html.liquid toponyms=site.data._toponyms.oronyms toponym=tag %}
+
 ```
 {% comment %}<!-- Toponyms -->{% endcomment %}
 {% for toponym in site.toponyms -%}

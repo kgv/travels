@@ -8,25 +8,16 @@ layout: post
 
 <h2 itemprop="headline">Points of interest</h2>
 
-{% assign titles = site.toponyms | map: "title" %}
-{{ titles }}
-
 <ul>
 {% for tag in page.tags %}
-    {% assign toponym = site.toponyms | where: "title", "tag" | first %}
-    gg: {{ toponym }}
-    {% assign toponym = site.toponyms | where_exp: "toponym", "toponym.title == tag" | first %}
-    hh: {{ toponym }}
-
     <li>
-    {% assign toponym = tag %}
-    {% for toponym in site.toponyms %}
-        {% if toponym.title == tag %}
-            {% capture toponym -%}<a href="{{ toponym.url | relative_url }}", title="{{ toponym.title }}">{{ toponym.title }}</a>{%- endcapture %}
-            {% break %}
-        {% endif %}
-    {% endfor %}
-    {{ toponym }}
+    <!-- {% assign toponym = site.toponyms | find_exp: "toponym", "toponym.title == tag" %} -->
+    {% assign toponym = site.toponyms | where_exp: "toponym", "toponym.title == tag" | first %}
+    {% if toponym -%}
+        <a href="{{ toponym.url | relative_url }}", title="{{ toponym.title }}">{{ toponym.title }}</a>
+    {%- else -%}
+        {{ tag }}
+    {%- endif %}
     </li>
 {% endfor %}
 </ul>

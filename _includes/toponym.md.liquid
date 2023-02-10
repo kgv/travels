@@ -16,6 +16,13 @@
 {%- assign content = content | replace: from, to -%}
 {%- endfor %}
 
+{% comment %}<!-- Maps -->{% endcomment %}
+{% for quadrant in site.data.maps -%}
+{%- capture from %}⦃{{ quadrant }}⦄{% endcapture -%}
+{%- capture to %}<a href="/site/assets/images/map/{{ quadrant }}.jpg" title="{{ quadrant }}">{{ quadrant }}</a>{% endcapture -%}
+{%- assign content = content | replace: from, to -%}
+{%- endfor %}
+
 {{ content }}
 
 {%- assign lowercase = content | downcase -%}
@@ -24,7 +31,3 @@ term:{{ term }}
 {%- capture link -%}[{{ term }}]{%- endcapture -%}
 {%- if lowercase contains link -%}[{{ term }}]: /site/terms/{{ term }}{%- endif -%}
 {%- endfor %}
-
-{%- for interpretation in page.interpretations -%}
-[^{{ forloop.index }}]: {{ interpretation }}
-{%- endfor -%}

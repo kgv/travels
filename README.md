@@ -39,6 +39,12 @@ http://rodnik-crimea.ru/Tds.html
 ```
 
 ```
+{%- for interpretation in page.interpretations -%}
+[^{{ forloop.index }}]: {{ interpretation }}
+{%- endfor -%}
+```
+
+```
 {:style="text-align:center;"}
 {% for quadrant in page.quadrants -%}
 {%- capture path %}/assets/images/map/{{ quadrant }}.jpg{% endcapture -%}
